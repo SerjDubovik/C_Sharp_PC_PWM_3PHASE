@@ -8,3 +8,6 @@ D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_P
 D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_PWM_3PHASE.csproj.CoreCompileInputs.cache
 D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_PWM_3PHASE.exe
 D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_PWM_3PHASE.pdb
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\bin\Debug\log4net.dll
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\bin\Debug\nmodbuspc.dll
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_PWM_3PHASE.csproj.CopyComplete
