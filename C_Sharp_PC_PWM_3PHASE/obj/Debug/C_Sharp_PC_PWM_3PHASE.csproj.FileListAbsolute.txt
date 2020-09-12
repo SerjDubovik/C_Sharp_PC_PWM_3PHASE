@@ -1,0 +1,10 @@
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\bin\Debug\C_Sharp_PC_PWM_3PHASE.exe.config
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\bin\Debug\C_Sharp_PC_PWM_3PHASE.exe
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\bin\Debug\C_Sharp_PC_PWM_3PHASE.pdb
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_PWM_3PHASE.csprojAssemblyReference.cache
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_PWM_3PHASE.Form1.resources
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_PWM_3PHASE.Properties.Resources.resources
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_PWM_3PHASE.csproj.GenerateResource.cache
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_PWM_3PHASE.csproj.CoreCompileInputs.cache
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_PWM_3PHASE.exe
+D:\GIT\GitHub\C_Sharp_PC_PWM_3PHASE\C_Sharp_PC_PWM_3PHASE\obj\Debug\C_Sharp_PC_PWM_3PHASE.pdb
