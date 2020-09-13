@@ -91,6 +91,11 @@ namespace C_Sharp_PC_PWM_3PHASE
         {
 			label_count_connect.Text = Convert.ToString(modBus_var.mb_mass[8]);             // тестовый счётчик в потоке модбаса в плате
 		}
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
