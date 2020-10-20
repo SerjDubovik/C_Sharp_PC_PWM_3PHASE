@@ -52,7 +52,7 @@
             this.checkBox_forvard = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.label_U_zpt = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -64,6 +64,14 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.A0 = new System.Windows.Forms.Label();
+            this.A4 = new System.Windows.Forms.Label();
+            this.A5 = new System.Windows.Forms.Label();
+            this.A6 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
             this.Main_menu.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -262,14 +270,14 @@
             this.label1.TabIndex = 31;
             this.label1.Text = "Напряжение ЗПТ:";
             // 
-            // label2
+            // label_U_zpt
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(127, 27);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 13);
-            this.label2.TabIndex = 31;
-            this.label2.Text = "NuN";
+            this.label_U_zpt.AutoSize = true;
+            this.label_U_zpt.Location = new System.Drawing.Point(127, 27);
+            this.label_U_zpt.Name = "label_U_zpt";
+            this.label_U_zpt.Size = new System.Drawing.Size(29, 13);
+            this.label_U_zpt.TabIndex = 31;
+            this.label_U_zpt.Text = "NuN";
             // 
             // label3
             // 
@@ -313,7 +321,7 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.label_U_zpt);
             this.groupBox2.Controls.Add(this.label1);
             this.groupBox2.Location = new System.Drawing.Point(538, 220);
             this.groupBox2.Name = "groupBox2";
@@ -385,11 +393,91 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Задание параметров";
             // 
+            // A0
+            // 
+            this.A0.AutoSize = true;
+            this.A0.Location = new System.Drawing.Point(373, 247);
+            this.A0.Name = "A0";
+            this.A0.Size = new System.Drawing.Size(29, 13);
+            this.A0.TabIndex = 37;
+            this.A0.Text = "NuN";
+            // 
+            // A4
+            // 
+            this.A4.AutoSize = true;
+            this.A4.Location = new System.Drawing.Point(373, 270);
+            this.A4.Name = "A4";
+            this.A4.Size = new System.Drawing.Size(29, 13);
+            this.A4.TabIndex = 38;
+            this.A4.Text = "NuN";
+            // 
+            // A5
+            // 
+            this.A5.AutoSize = true;
+            this.A5.Location = new System.Drawing.Point(373, 295);
+            this.A5.Name = "A5";
+            this.A5.Size = new System.Drawing.Size(29, 13);
+            this.A5.TabIndex = 39;
+            this.A5.Text = "NuN";
+            // 
+            // A6
+            // 
+            this.A6.AutoSize = true;
+            this.A6.Location = new System.Drawing.Point(373, 318);
+            this.A6.Name = "A6";
+            this.A6.Size = new System.Drawing.Size(29, 13);
+            this.A6.TabIndex = 40;
+            this.A6.Text = "NuN";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(34, 247);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(210, 13);
+            this.label13.TabIndex = 41;
+            this.label13.Text = "GPIOA.0 Isens - вход с токового датчика";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(34, 270);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(300, 13);
+            this.label14.TabIndex = 42;
+            this.label14.Text = "GPIOA.4 Uzpt - вход, напряжение звена постоянного тока";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(34, 295);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(275, 13);
+            this.label15.TabIndex = 43;
+            this.label15.Text = "GPIOA.5 Un \t- выходное напряжение. обратная связь";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(34, 318);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(256, 13);
+            this.label16.TabIndex = 44;
+            this.label16.Text = "GPIOA.6 Ibreak - ток отсечки. защитная функция.";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(820, 583);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.A6);
+            this.Controls.Add(this.A5);
+            this.Controls.Add(this.A4);
+            this.Controls.Add(this.A0);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -441,7 +529,7 @@
         private System.Windows.Forms.CheckBox checkBox_forvard;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label_U_zpt;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
@@ -453,6 +541,14 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Label A0;
+        private System.Windows.Forms.Label A4;
+        private System.Windows.Forms.Label A5;
+        private System.Windows.Forms.Label A6;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label16;
     }
 }
 
