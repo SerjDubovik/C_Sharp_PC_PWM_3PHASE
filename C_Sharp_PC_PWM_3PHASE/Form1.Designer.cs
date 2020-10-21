@@ -72,6 +72,8 @@
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
+            this.label_telemetry = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.Main_menu.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -465,11 +467,31 @@
             this.label16.TabIndex = 44;
             this.label16.Text = "GPIOA.6 Ibreak - ток отсечки. защитная функция.";
             // 
+            // label_telemetry
+            // 
+            this.label_telemetry.AutoSize = true;
+            this.label_telemetry.Location = new System.Drawing.Point(373, 150);
+            this.label_telemetry.Name = "label_telemetry";
+            this.label_telemetry.Size = new System.Drawing.Size(29, 13);
+            this.label_telemetry.TabIndex = 45;
+            this.label_telemetry.Text = "NuN";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(146, 150);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(94, 13);
+            this.label2.TabIndex = 46;
+            this.label2.Text = "Слово состояния";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(820, 583);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label_telemetry);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
@@ -549,6 +571,8 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label_telemetry;
+        private System.Windows.Forms.Label label2;
     }
 }
 

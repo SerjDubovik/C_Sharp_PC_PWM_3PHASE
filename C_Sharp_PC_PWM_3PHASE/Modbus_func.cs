@@ -99,8 +99,29 @@ namespace C_Sharp_PC_PWM_3PHASE
 					
                     ushort[] register;
 
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 0, 2);           //  телеметрия состояния контроллера
+					modBus_var.mb_mass[0] = register[0];
 
-                    register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 8, 2);           //  счётчик для проверки связи
+					// 15	-	1 если включился и ждёт команды от пользователя.
+					// 14	-	
+					// 13	-	
+					// 12	-	
+					// 11	-	
+					// 10	-	
+					// 9	-	
+					// 8	-	
+
+					// 7	-	
+					// 6	-	
+					// 5	-	
+					// 4	-	
+					// 3	-	
+					// 2	-	
+					// 1	-	
+					// 0	-	
+
+
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 8, 2);           //  счётчик для проверки связи
                     modBus_var.mb_mass[8] = register[0];
 
 					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 9, 2);           //  GPIOA.0		Isens - вход с токового датчика

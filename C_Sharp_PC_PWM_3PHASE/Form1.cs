@@ -96,6 +96,8 @@ namespace C_Sharp_PC_PWM_3PHASE
 			A5.Text = Convert.ToString(modBus_var.mb_mass[11]);                    // GPIOA.5		Un 	- выходное напряжение. обратная связь
 			A6.Text = Convert.ToString(modBus_var.mb_mass[12]);                    // GPIOA.6		Ibreak - ток отсечки. защитная функция.
 
+			label_telemetry.Text = Convert.ToString(modBus_var.mb_mass[0]);        // GPIOA.6		состояние системы
+
 		}
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
