@@ -46,24 +46,17 @@
             this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
             this.label_count_connect = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.button_start = new System.Windows.Forms.Button();
-            this.button_stop = new System.Windows.Forms.Button();
-            this.checkBox_revers = new System.Windows.Forms.CheckBox();
-            this.checkBox_forvard = new System.Windows.Forms.CheckBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label_U_zpt = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.domainUpDown1 = new System.Windows.Forms.DomainUpDown();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.A0 = new System.Windows.Forms.Label();
             this.A4 = new System.Windows.Forms.Label();
             this.A5 = new System.Windows.Forms.Label();
@@ -74,12 +67,11 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label_telemetry = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.Main_menu.SuspendLayout();
             this.statusStrip1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // Main_menu
@@ -90,7 +82,7 @@
             this.ToolStripMenuItem_Help});
             this.Main_menu.Location = new System.Drawing.Point(0, 0);
             this.Main_menu.Name = "Main_menu";
-            this.Main_menu.Size = new System.Drawing.Size(820, 24);
+            this.Main_menu.Size = new System.Drawing.Size(1125, 24);
             this.Main_menu.TabIndex = 6;
             this.Main_menu.Text = "menuStrip1";
             // 
@@ -161,7 +153,7 @@
             this.toolStripStatusLabel5});
             this.statusStrip1.Location = new System.Drawing.Point(0, 561);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(820, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1125, 22);
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -212,56 +204,14 @@
             this.label9.TabIndex = 25;
             this.label9.Text = "Проверка связи:";
             // 
-            // button_start
-            // 
-            this.button_start.Location = new System.Drawing.Point(16, 21);
-            this.button_start.Name = "button_start";
-            this.button_start.Size = new System.Drawing.Size(109, 40);
-            this.button_start.TabIndex = 27;
-            this.button_start.Text = "Вращение";
-            this.button_start.UseVisualStyleBackColor = true;
-            // 
-            // button_stop
-            // 
-            this.button_stop.Location = new System.Drawing.Point(131, 21);
-            this.button_stop.Name = "button_stop";
-            this.button_stop.Size = new System.Drawing.Size(109, 40);
-            this.button_stop.TabIndex = 28;
-            this.button_stop.Text = "Стоп";
-            this.button_stop.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_revers
-            // 
-            this.checkBox_revers.AutoSize = true;
-            this.checkBox_revers.Location = new System.Drawing.Point(16, 77);
-            this.checkBox_revers.Name = "checkBox_revers";
-            this.checkBox_revers.Size = new System.Drawing.Size(129, 17);
-            this.checkBox_revers.TabIndex = 29;
-            this.checkBox_revers.Text = "Обратное вращение";
-            this.checkBox_revers.UseVisualStyleBackColor = true;
-            // 
-            // checkBox_forvard
-            // 
-            this.checkBox_forvard.AutoSize = true;
-            this.checkBox_forvard.Location = new System.Drawing.Point(16, 100);
-            this.checkBox_forvard.Name = "checkBox_forvard";
-            this.checkBox_forvard.Size = new System.Drawing.Size(120, 17);
-            this.checkBox_forvard.TabIndex = 29;
-            this.checkBox_forvard.Text = "Прямое вращение";
-            this.checkBox_forvard.UseVisualStyleBackColor = true;
-            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.checkBox_forvard);
-            this.groupBox1.Controls.Add(this.checkBox_revers);
-            this.groupBox1.Controls.Add(this.button_stop);
-            this.groupBox1.Controls.Add(this.button_start);
-            this.groupBox1.Location = new System.Drawing.Point(538, 360);
+            this.groupBox1.Location = new System.Drawing.Point(770, 63);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(254, 141);
+            this.groupBox1.Size = new System.Drawing.Size(217, 220);
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Управление запуском";
+            this.groupBox1.Text = "Управление ШИМ";
             // 
             // label1
             // 
@@ -275,7 +225,7 @@
             // label_U_zpt
             // 
             this.label_U_zpt.AutoSize = true;
-            this.label_U_zpt.Location = new System.Drawing.Point(127, 27);
+            this.label_U_zpt.Location = new System.Drawing.Point(191, 27);
             this.label_U_zpt.Name = "label_U_zpt";
             this.label_U_zpt.Size = new System.Drawing.Size(29, 13);
             this.label_U_zpt.TabIndex = 31;
@@ -286,119 +236,89 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(12, 50);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 13);
+            this.label3.Size = new System.Drawing.Size(163, 13);
             this.label3.TabIndex = 31;
-            this.label3.Text = "Заданная частота:";
+            this.label3.Text = "Порог срабатывания текущий:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(127, 50);
+            this.label4.Location = new System.Drawing.Point(191, 50);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(29, 13);
             this.label4.TabIndex = 31;
             this.label4.Text = "NuN";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 75);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(97, 13);
-            this.label5.TabIndex = 31;
-            this.label5.Text = "Текущая частота:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(127, 75);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 13);
-            this.label6.TabIndex = 31;
-            this.label6.Text = "NuN";
-            // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.numericUpDown1);
+            this.groupBox2.Controls.Add(this.label7);
             this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.checkBox2);
+            this.groupBox2.Controls.Add(this.checkBox1);
+            this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label_U_zpt);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(538, 220);
+            this.groupBox2.Location = new System.Drawing.Point(488, 63);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(252, 107);
+            this.groupBox2.Size = new System.Drawing.Size(252, 220);
             this.groupBox2.TabIndex = 32;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Телеметрия";
-            // 
-            // trackBar1
-            // 
-            this.trackBar1.Location = new System.Drawing.Point(9, 33);
-            this.trackBar1.Maximum = 400;
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(224, 45);
-            this.trackBar1.TabIndex = 33;
-            // 
-            // domainUpDown1
-            // 
-            this.domainUpDown1.Location = new System.Drawing.Point(124, 75);
-            this.domainUpDown1.Name = "domainUpDown1";
-            this.domainUpDown1.Size = new System.Drawing.Size(99, 20);
-            this.domainUpDown1.TabIndex = 34;
-            this.domainUpDown1.Text = "domainUpDown1";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "8 кГц",
-            "10 кГц",
-            "16 кГц",
-            "20 кГц",
-            "25 кГц"});
-            this.comboBox1.Location = new System.Drawing.Point(124, 101);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(99, 21);
-            this.comboBox1.TabIndex = 35;
-            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            this.groupBox2.Text = "Звено постоянного тока";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(19, 77);
+            this.label7.Location = new System.Drawing.Point(14, 76);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(102, 13);
-            this.label7.TabIndex = 31;
-            this.label7.Text = "Задание чатстоты:";
+            this.label7.Size = new System.Drawing.Size(154, 13);
+            this.label7.TabIndex = 36;
+            this.label7.Text = "Задать порог срабатывания:";
             // 
-            // label8
+            // label6
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(19, 104);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(100, 13);
-            this.label8.TabIndex = 31;
-            this.label8.Text = "Задание несущей:";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(226, 50);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(14, 13);
+            this.label6.TabIndex = 35;
+            this.label6.Text = "В";
             // 
-            // groupBox3
+            // label5
             // 
-            this.groupBox3.Controls.Add(this.comboBox1);
-            this.groupBox3.Controls.Add(this.domainUpDown1);
-            this.groupBox3.Controls.Add(this.trackBar1);
-            this.groupBox3.Controls.Add(this.label8);
-            this.groupBox3.Controls.Add(this.label7);
-            this.groupBox3.Location = new System.Drawing.Point(538, 49);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(252, 146);
-            this.groupBox3.TabIndex = 36;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Задание параметров";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(226, 27);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(14, 13);
+            this.label5.TabIndex = 34;
+            this.label5.Text = "В";
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Location = new System.Drawing.Point(17, 166);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(221, 17);
+            this.checkBox2.TabIndex = 33;
+            this.checkBox2.Text = "Принудительно замкнуть реле заряда";
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(17, 141);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(126, 17);
+            this.checkBox1.TabIndex = 32;
+            this.checkBox1.Text = "Автономная работа";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
             // A0
             // 
             this.A0.AutoSize = true;
-            this.A0.Location = new System.Drawing.Point(373, 247);
+            this.A0.Location = new System.Drawing.Point(356, 422);
             this.A0.Name = "A0";
             this.A0.Size = new System.Drawing.Size(29, 13);
             this.A0.TabIndex = 37;
@@ -407,7 +327,7 @@
             // A4
             // 
             this.A4.AutoSize = true;
-            this.A4.Location = new System.Drawing.Point(373, 270);
+            this.A4.Location = new System.Drawing.Point(356, 445);
             this.A4.Name = "A4";
             this.A4.Size = new System.Drawing.Size(29, 13);
             this.A4.TabIndex = 38;
@@ -416,7 +336,7 @@
             // A5
             // 
             this.A5.AutoSize = true;
-            this.A5.Location = new System.Drawing.Point(373, 295);
+            this.A5.Location = new System.Drawing.Point(356, 470);
             this.A5.Name = "A5";
             this.A5.Size = new System.Drawing.Size(29, 13);
             this.A5.TabIndex = 39;
@@ -425,7 +345,7 @@
             // A6
             // 
             this.A6.AutoSize = true;
-            this.A6.Location = new System.Drawing.Point(373, 318);
+            this.A6.Location = new System.Drawing.Point(356, 493);
             this.A6.Name = "A6";
             this.A6.Size = new System.Drawing.Size(29, 13);
             this.A6.TabIndex = 40;
@@ -434,7 +354,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(34, 247);
+            this.label13.Location = new System.Drawing.Point(17, 422);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(210, 13);
             this.label13.TabIndex = 41;
@@ -443,7 +363,7 @@
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(34, 270);
+            this.label14.Location = new System.Drawing.Point(17, 445);
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(300, 13);
             this.label14.TabIndex = 42;
@@ -452,7 +372,7 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(34, 295);
+            this.label15.Location = new System.Drawing.Point(17, 470);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(275, 13);
             this.label15.TabIndex = 43;
@@ -461,7 +381,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(34, 318);
+            this.label16.Location = new System.Drawing.Point(17, 493);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(256, 13);
             this.label16.TabIndex = 44;
@@ -470,7 +390,7 @@
             // label_telemetry
             // 
             this.label_telemetry.AutoSize = true;
-            this.label_telemetry.Location = new System.Drawing.Point(373, 150);
+            this.label_telemetry.Location = new System.Drawing.Point(356, 394);
             this.label_telemetry.Name = "label_telemetry";
             this.label_telemetry.Size = new System.Drawing.Size(29, 13);
             this.label_telemetry.TabIndex = 45;
@@ -479,17 +399,24 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(146, 150);
+            this.label2.Location = new System.Drawing.Point(18, 394);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 13);
             this.label2.TabIndex = 46;
             this.label2.Text = "Слово состояния";
             // 
+            // numericUpDown1
+            // 
+            this.numericUpDown1.Location = new System.Drawing.Point(183, 74);
+            this.numericUpDown1.Name = "numericUpDown1";
+            this.numericUpDown1.Size = new System.Drawing.Size(55, 20);
+            this.numericUpDown1.TabIndex = 38;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(820, 583);
+            this.ClientSize = new System.Drawing.Size(1125, 583);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label_telemetry);
             this.Controls.Add(this.label16);
@@ -500,7 +427,6 @@
             this.Controls.Add(this.A5);
             this.Controls.Add(this.A4);
             this.Controls.Add(this.A0);
-            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label_count_connect);
@@ -514,13 +440,9 @@
             this.Main_menu.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -545,24 +467,12 @@
         public System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel5;
         public System.Windows.Forms.Label label_count_connect;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button button_start;
-        private System.Windows.Forms.Button button_stop;
-        private System.Windows.Forms.CheckBox checkBox_revers;
-        private System.Windows.Forms.CheckBox checkBox_forvard;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label_U_zpt;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TrackBar trackBar1;
-        private System.Windows.Forms.DomainUpDown domainUpDown1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label A0;
         private System.Windows.Forms.Label A4;
         private System.Windows.Forms.Label A5;
@@ -573,6 +483,12 @@
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label_telemetry;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
 

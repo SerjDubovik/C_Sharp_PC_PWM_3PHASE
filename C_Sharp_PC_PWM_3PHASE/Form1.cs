@@ -91,12 +91,12 @@ namespace C_Sharp_PC_PWM_3PHASE
         {
 			label_count_connect.Text = Convert.ToString(modBus_var.mb_mass[8]);             // тестовый счётчик в потоке модбаса в плате
 			
-			A0.Text = Convert.ToString(modBus_var.mb_mass[9]);                     // GPIOA.0		Isens - вход с токового датчика
-			A4.Text = Convert.ToString(modBus_var.mb_mass[10]);                    // GPIOA.4		Uzpt - вход, напряжение звена постоянного тока
-			A5.Text = Convert.ToString(modBus_var.mb_mass[11]);                    // GPIOA.5		Un 	- выходное напряжение. обратная связь
-			A6.Text = Convert.ToString(modBus_var.mb_mass[12]);                    // GPIOA.6		Ibreak - ток отсечки. защитная функция.
+			A0.Text = Convert.ToString(modBus_var.mb_mass[13]);                    // GPIOA.0		Isens - вход с токового датчика
+			A4.Text = Convert.ToString(modBus_var.mb_mass[14]);                    // GPIOA.4		Uzpt - вход, напряжение звена постоянного тока
+			A5.Text = Convert.ToString(modBus_var.mb_mass[15]);                    // GPIOA.5		Un 	- выходное напряжение. обратная связь
+			A6.Text = Convert.ToString(modBus_var.mb_mass[16]);                    // GPIOA.6		Ibreak - ток отсечки. защитная функция.
 
-			label_telemetry.Text = Convert.ToString(modBus_var.mb_mass[0]);        // GPIOA.6		состояние системы
+			label_telemetry.Text = Convert.ToString(modBus_var.mb_mass[0]);        // состояние системы
 
 		}
 

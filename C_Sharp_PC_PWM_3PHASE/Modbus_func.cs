@@ -137,7 +137,22 @@ namespace C_Sharp_PC_PWM_3PHASE
 					modBus_var.mb_mass[12] = register[0];
 
 
-					master.WriteSingleRegister(modBus_var.adrr_dev_in, 0, modBus_var.mb_mass[0]);	// 
+
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 13, 2);           //  GPIOA.0	АЦП значение
+					modBus_var.mb_mass[13] = register[0];
+
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 14, 2);          //  GPIOA.4		АЦП значение
+					modBus_var.mb_mass[14] = register[0];
+
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 15, 2);          //  GPIOA.5		АЦП значение
+					modBus_var.mb_mass[15] = register[0];
+
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 16, 2);          //  GPIOA.6		АЦП значение
+					modBus_var.mb_mass[16] = register[0];
+
+
+
+					master.WriteSingleRegister(modBus_var.adrr_dev_in, 1, modBus_var.mb_mass[1]);	//  запись управляющего слова
                    
                 }
     	        	       	        	                
