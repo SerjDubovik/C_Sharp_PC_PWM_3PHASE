@@ -66,6 +66,20 @@ namespace C_Sharp_PC_PWM_3PHASE
 
 
 			existing_port_list.AddRange(SerialPort.GetPortNames());                     // узнаём какие порты активны сейчс и заносим их в лист
+
+
+
+			if (checkBox2.Checked)
+			{
+				label_state_rele.Text = "Реле замкнуто";
+				label_state_rele.BackColor = Color.FromArgb(128, 255, 128);
+			}
+			else
+			{
+				label_state_rele.Text = "Реле разомкнуто";
+				label_state_rele.BackColor = Color.FromArgb(255, 128, 128);
+			}
+
 		}
 
         private void ToolStripMenuItem_exit_Click(object sender, EventArgs e)
@@ -89,20 +103,52 @@ namespace C_Sharp_PC_PWM_3PHASE
 
         private void timer_for_Displ_Tick(object sender, EventArgs e)
         {
-			label_count_connect.Text = Convert.ToString(modBus_var.mb_mass[8]);             // тестовый счётчик в потоке модбаса в плате
+			label_count_connect.Text = Convert.ToString(modBus_var.mb_mass[8]);			// тестовый счётчик в потоке модбаса в плате
 			
-			A0.Text = Convert.ToString(modBus_var.mb_mass[13]);                    // GPIOA.0		Isens - вход с токового датчика
-			A4.Text = Convert.ToString(modBus_var.mb_mass[14]);                    // GPIOA.4		Uzpt - вход, напряжение звена постоянного тока
-			A5.Text = Convert.ToString(modBus_var.mb_mass[15]);                    // GPIOA.5		Un 	- выходное напряжение. обратная связь
-			A6.Text = Convert.ToString(modBus_var.mb_mass[16]);                    // GPIOA.6		Ibreak - ток отсечки. защитная функция.
+			A0.Text = Convert.ToString(modBus_var.mb_mass[13]);							// GPIOA.0		Isens - вход с токового датчика
+			A4.Text = Convert.ToString(modBus_var.mb_mass[14]);							// GPIOA.4		Uzpt - вход, напряжение звена постоянного тока
+			A5.Text = Convert.ToString(modBus_var.mb_mass[15]);							// GPIOA.5		Un 	- выходное напряжение. обратная связь
+			A6.Text = Convert.ToString(modBus_var.mb_mass[16]);							// GPIOA.6		Ibreak - ток отсечки. защитная функция.
 
-			label_telemetry.Text = Convert.ToString(modBus_var.mb_mass[0]);        // состояние системы
+			M9.Text = Convert.ToString(modBus_var.mb_mass[9]/1000.0);					// Isens * K_Isens
+			M10.Text = Convert.ToString(modBus_var.mb_mass[10]);						// Uzpt * K_Uzpt
+			M11.Text = Convert.ToString(modBus_var.mb_mass[11]/1000.0);                 // Un * K_Un
+			M12.Text = Convert.ToString(modBus_var.mb_mass[12]/100.0);					// Ibreak * K_Ibreak
+
+			label_U_zpt.Text = Convert.ToString(modBus_var.mb_mass[10]);				// Uzpt * K_Uzpt
+			label_threshold_U_zpt.Text = Convert.ToString(modBus_var.mb_mass[21]);      // Порог срабатыания реле ЗПТ
+
+
+			if ((modBus_var.mb_mass[0] &= 0x4000) != 0)
+			{
+				label_state_rele.Text = "Реле замкнуто";
+				label_state_rele.BackColor = Color.FromArgb(128, 255, 128);
+			}
+			else
+			{
+				label_state_rele.Text = "Реле разомкнуто";
+				label_state_rele.BackColor = Color.FromArgb(255, 128, 128);
+			}
+
+			label_telemetry.Text = Convert.ToString(modBus_var.mb_mass[0]);				// состояние системы
 
 		}
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)			// принудительно замкнуть реле
+        {
+			if (checkBox2.Checked)
+			{
+
+			}
+			else
+			{
+
+			}
         }
     }
 

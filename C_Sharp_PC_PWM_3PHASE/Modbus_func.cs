@@ -121,35 +121,39 @@ namespace C_Sharp_PC_PWM_3PHASE
 					// 0	-	
 
 
-					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 8, 2);           //  счётчик для проверки связи
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 8, 2);           // счётчик для проверки связи
                     modBus_var.mb_mass[8] = register[0];
 
-					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 9, 2);           //  GPIOA.0		Isens - вход с токового датчика
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 9, 2);           // GPIOA.0		Isens - вход с токового датчика
 					modBus_var.mb_mass[9] = register[0];
 					
-					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 10, 2);          //  GPIOA.4		Uzpt - вход, напряжение звена постоянного тока
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 10, 2);          // GPIOA.4		Uzpt - вход, напряжение звена постоянного тока
 					modBus_var.mb_mass[10] = register[0];
 
-					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 11, 2);          //  GPIOA.5		Un 	- выходное напряжение. обратная связь
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 11, 2);          // GPIOA.5		Un 	- выходное напряжение. обратная связь
 					modBus_var.mb_mass[11] = register[0];
 
-					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 12, 2);          //  GPIOA.6		Ibreak - ток отсечки. защитная функция.
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 12, 2);          // GPIOA.6		Ibreak - ток отсечки. защитная функция.
 					modBus_var.mb_mass[12] = register[0];
 
 
 
-					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 13, 2);           //  GPIOA.0	АЦП значение
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 13, 2);          // GPIOA.0	АЦП значение
 					modBus_var.mb_mass[13] = register[0];
 
-					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 14, 2);          //  GPIOA.4		АЦП значение
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 14, 2);          // GPIOA.4		АЦП значение
 					modBus_var.mb_mass[14] = register[0];
 
-					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 15, 2);          //  GPIOA.5		АЦП значение
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 15, 2);          // GPIOA.5		АЦП значение
 					modBus_var.mb_mass[15] = register[0];
 
-					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 16, 2);          //  GPIOA.6		АЦП значение
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 16, 2);          // GPIOA.6		АЦП значение
 					modBus_var.mb_mass[16] = register[0];
 
+
+
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 21, 2);          // порог срабатывания реле ЗПТ
+					modBus_var.mb_mass[21] = register[0];
 
 
 					master.WriteSingleRegister(modBus_var.adrr_dev_in, 1, modBus_var.mb_mass[1]);	//  запись управляющего слова
