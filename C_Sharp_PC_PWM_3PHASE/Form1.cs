@@ -67,7 +67,7 @@ namespace C_Sharp_PC_PWM_3PHASE
 
 			existing_port_list.AddRange(SerialPort.GetPortNames());                     // узнаём какие порты активны сейчс и заносим их в лист
 
-
+			checkBox1.Checked = true;													// при старте выставлена галка автономной работы
 
 			if (checkBox2.Checked)
 			{
@@ -119,18 +119,20 @@ namespace C_Sharp_PC_PWM_3PHASE
 			label_threshold_U_zpt.Text = Convert.ToString(modBus_var.mb_mass[21]);      // Порог срабатыания реле ЗПТ
 
 
+			label_telemetry.Text = Convert.ToString(modBus_var.mb_mass[0]);             // состояние системы
+
 			if ((modBus_var.mb_mass[0] &= 0x4000) != 0)
 			{
 				label_state_rele.Text = "Реле замкнуто";
 				label_state_rele.BackColor = Color.FromArgb(128, 255, 128);
+				//checkBox2.Checked = true;
 			}
 			else
 			{
 				label_state_rele.Text = "Реле разомкнуто";
 				label_state_rele.BackColor = Color.FromArgb(255, 128, 128);
+				//checkBox2.Checked = false;
 			}
-
-			label_telemetry.Text = Convert.ToString(modBus_var.mb_mass[0]);				// состояние системы
 
 		}
 
@@ -143,13 +145,21 @@ namespace C_Sharp_PC_PWM_3PHASE
         {
 			if (checkBox2.Checked)
 			{
+				modBus_var.mb_mass[1] |= 0x4000;
+			}
+		}
 
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)			// автономная работа
+        {
+			if (checkBox1.Checked)
+			{
+				checkBox2.Hide();
 			}
 			else
 			{
-
+				checkBox2.Show();
 			}
-        }
+		}
     }
 
 
