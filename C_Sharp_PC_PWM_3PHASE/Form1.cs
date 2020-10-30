@@ -80,6 +80,8 @@ namespace C_Sharp_PC_PWM_3PHASE
 				label_state_rele.BackColor = Color.FromArgb(255, 128, 128);
 			}
 
+			modBus_var.mb_mass[2] = 0x00FF;
+
 		}
 
         private void ToolStripMenuItem_exit_Click(object sender, EventArgs e)
@@ -118,7 +120,7 @@ namespace C_Sharp_PC_PWM_3PHASE
 			label_U_zpt.Text = Convert.ToString(modBus_var.mb_mass[10]);				// Uzpt * K_Uzpt
 			label_threshold_U_zpt.Text = Convert.ToString(modBus_var.mb_mass[21]);      // Порог срабатыания реле ЗПТ
 
-
+			label_control.Text = Convert.ToString(modBus_var.mb_mass[1]);				// слово управления
 			label_telemetry.Text = Convert.ToString(modBus_var.mb_mass[0]);             // состояние системы
 
 			if ((modBus_var.mb_mass[0] &= 0x4000) != 0)
@@ -143,9 +145,15 @@ namespace C_Sharp_PC_PWM_3PHASE
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)			// принудительно замкнуть реле
         {
-			if (checkBox2.Checked)
+			if (checkBox2.Checked)													// замкнуть реле
 			{
+				modBus_var.mb_mass[1] &= 0xDFFF;
 				modBus_var.mb_mass[1] |= 0x4000;
+			}
+			else																	// разомкнуть реле
+			{
+				modBus_var.mb_mass[1] &= 0xBFFF;
+				modBus_var.mb_mass[1] |= 0x2000;				
 			}
 		}
 
@@ -153,11 +161,36 @@ namespace C_Sharp_PC_PWM_3PHASE
         {
 			if (checkBox1.Checked)
 			{
+				modBus_var.mb_mass[1] |= 0x1000;									// установим 12 бит, автономная работа зпт
+
 				checkBox2.Hide();
 			}
 			else
 			{
+				modBus_var.mb_mass[1] &= 0xEFFF;                                    // сбросим 12 бит, переход на ручной режим
+
+				if ((modBus_var.mb_mass[0] &= 0x4000) != 0)							// если в момент перехода на ручное управление, реле было замкнуто, выставим галку.
+				{
+					checkBox2.Checked = true;
+				}
+				else
+				{
+					checkBox2.Checked = false;
+				}
+
 				checkBox2.Show();
+			}
+		}
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)			// включить/выключить шим
+        {
+			if (checkBox4.Checked)                                                  // 
+			{
+
+			}
+			else                                                                    // 
+			{
+
 			}
 		}
     }

@@ -156,9 +156,10 @@ namespace C_Sharp_PC_PWM_3PHASE
 					modBus_var.mb_mass[21] = register[0];
 
 
-					master.WriteSingleRegister(modBus_var.adrr_dev_in, 1, modBus_var.mb_mass[1]);	//  запись управляющего слова
-                   
-                }
+					master.WriteSingleRegister(modBus_var.adrr_dev_in, 1, modBus_var.mb_mass[1]);   //  запись управляющего слова
+					master.WriteSingleRegister(modBus_var.adrr_dev_in, 2, modBus_var.mb_mass[2]);
+
+				}
     	        	       	        	                
                 catch 
 				{
