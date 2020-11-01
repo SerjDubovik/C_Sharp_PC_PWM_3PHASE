@@ -100,13 +100,14 @@ namespace C_Sharp_PC_PWM_3PHASE
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
 			Serialization("default.dat");
-			Thread_Modbus.Abort();                                                          // заставляет прервать поток обработки модбас
+			Thread_Modbus.Abort();                                                      // заставляет прервать поток обработки модбас
 		}
 
         private void timer_for_Displ_Tick(object sender, EventArgs e)
-        {
-			label_count_connect.Text = Convert.ToString(modBus_var.mb_mass[8]);			// тестовый счётчик в потоке модбаса в плате
-			
+        {			
+			toolStripStatusLabel7.Text = Convert.ToString(modBus_var.mb_mass[8]);       // тестовый счётчик в потоке модбаса в плате. в строке состояния.
+
+
 			A0.Text = Convert.ToString(modBus_var.mb_mass[13]);							// GPIOA.0		Isens - вход с токового датчика
 			A4.Text = Convert.ToString(modBus_var.mb_mass[14]);							// GPIOA.4		Uzpt - вход, напряжение звена постоянного тока
 			A5.Text = Convert.ToString(modBus_var.mb_mass[15]);							// GPIOA.5		Un 	- выходное напряжение. обратная связь
@@ -116,12 +117,14 @@ namespace C_Sharp_PC_PWM_3PHASE
 			M10.Text = Convert.ToString(modBus_var.mb_mass[10]);						// Uzpt * K_Uzpt
 			M11.Text = Convert.ToString(modBus_var.mb_mass[11]/1000.0);                 // Un * K_Un
 			M12.Text = Convert.ToString(modBus_var.mb_mass[12]/100.0);					// Ibreak * K_Ibreak
-
-			label_U_zpt.Text = Convert.ToString(modBus_var.mb_mass[10]);				// Uzpt * K_Uzpt
-			label_threshold_U_zpt.Text = Convert.ToString(modBus_var.mb_mass[21]);      // Порог срабатыания реле ЗПТ
+			
+			M21.Text = Convert.ToString(modBus_var.mb_mass[21]);						// Порог срабатыания реле ЗПТ
 
 			label_control.Text = Convert.ToString(modBus_var.mb_mass[1]);				// слово управления
 			label_telemetry.Text = Convert.ToString(modBus_var.mb_mass[0]);             // состояние системы
+
+
+
 
 			if ((modBus_var.mb_mass[0] &= 0x4000) != 0)
 			{

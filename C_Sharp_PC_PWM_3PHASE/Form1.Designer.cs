@@ -45,9 +45,16 @@
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel4 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel5 = new System.Windows.Forms.ToolStripStatusLabel();
-            this.label_count_connect = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.toolStripStatusLabel6 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolStripStatusLabel7 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
+            this.label33 = new System.Windows.Forms.Label();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.label23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
@@ -58,9 +65,8 @@
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.label_U_zpt = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label_threshold_U_zpt = new System.Windows.Forms.Label();
+            this.M21 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label_state_rele = new System.Windows.Forms.Label();
@@ -70,6 +76,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.M10 = new System.Windows.Forms.Label();
             this.A0 = new System.Windows.Forms.Label();
             this.A4 = new System.Windows.Forms.Label();
             this.A5 = new System.Windows.Forms.Label();
@@ -89,7 +96,6 @@
             this.label19 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.M9 = new System.Windows.Forms.Label();
-            this.M10 = new System.Windows.Forms.Label();
             this.M11 = new System.Windows.Forms.Label();
             this.M12 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
@@ -101,15 +107,66 @@
             this.button3 = new System.Windows.Forms.Button();
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
             this.label28 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
             this.label_control = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
+            this.label43 = new System.Windows.Forms.Label();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label40 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.button10 = new System.Windows.Forms.Button();
+            this.numericUpDown11 = new System.Windows.Forms.NumericUpDown();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
+            this.numericUpDown10 = new System.Windows.Forms.NumericUpDown();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label46 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.button8 = new System.Windows.Forms.Button();
+            this.numericUpDown9 = new System.Windows.Forms.NumericUpDown();
+            this.label48 = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.label65 = new System.Windows.Forms.Label();
+            this.label66 = new System.Windows.Forms.Label();
+            this.button14 = new System.Windows.Forms.Button();
+            this.numericUpDown15 = new System.Windows.Forms.NumericUpDown();
+            this.label67 = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.button13 = new System.Windows.Forms.Button();
+            this.numericUpDown14 = new System.Windows.Forms.NumericUpDown();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label60 = new System.Windows.Forms.Label();
+            this.button12 = new System.Windows.Forms.Button();
+            this.numericUpDown13 = new System.Windows.Forms.NumericUpDown();
+            this.label61 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label57 = new System.Windows.Forms.Label();
+            this.button11 = new System.Windows.Forms.Button();
+            this.numericUpDown12 = new System.Windows.Forms.NumericUpDown();
+            this.label58 = new System.Windows.Forms.Label();
             this.Main_menu.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -117,6 +174,18 @@
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).BeginInit();
+            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).BeginInit();
+            this.groupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).BeginInit();
+            this.groupBox6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).BeginInit();
             this.SuspendLayout();
             // 
             // Main_menu
@@ -127,7 +196,7 @@
             this.ToolStripMenuItem_Help});
             this.Main_menu.Location = new System.Drawing.Point(0, 0);
             this.Main_menu.Name = "Main_menu";
-            this.Main_menu.Size = new System.Drawing.Size(1125, 24);
+            this.Main_menu.Size = new System.Drawing.Size(1225, 24);
             this.Main_menu.TabIndex = 6;
             this.Main_menu.Text = "menuStrip1";
             // 
@@ -202,10 +271,12 @@
             this.toolStripStatusLabel2,
             this.toolStripStatusLabel3,
             this.toolStripStatusLabel4,
-            this.toolStripStatusLabel5});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 561);
+            this.toolStripStatusLabel5,
+            this.toolStripStatusLabel6,
+            this.toolStripStatusLabel7});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 771);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(1125, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(1225, 22);
             this.statusStrip1.TabIndex = 7;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -239,25 +310,27 @@
             this.toolStripStatusLabel5.Size = new System.Drawing.Size(19, 17);
             this.toolStripStatusLabel5.Text = "    ";
             // 
-            // label_count_connect
+            // toolStripStatusLabel6
             // 
-            this.label_count_connect.Location = new System.Drawing.Point(118, 533);
-            this.label_count_connect.Name = "label_count_connect";
-            this.label_count_connect.Size = new System.Drawing.Size(63, 16);
-            this.label_count_connect.TabIndex = 26;
-            this.label_count_connect.Text = "NuN";
-            this.label_count_connect.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.toolStripStatusLabel6.Name = "toolStripStatusLabel6";
+            this.toolStripStatusLabel6.Size = new System.Drawing.Size(87, 17);
+            this.toolStripStatusLabel6.Text = "Ответ платы:   ";
             // 
-            // label9
+            // toolStripStatusLabel7
             // 
-            this.label9.Location = new System.Drawing.Point(18, 534);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(100, 18);
-            this.label9.TabIndex = 25;
-            this.label9.Text = "Проверка связи:";
+            this.toolStripStatusLabel7.Name = "toolStripStatusLabel7";
+            this.toolStripStatusLabel7.Size = new System.Drawing.Size(22, 17);
+            this.toolStripStatusLabel7.Text = "     ";
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label56);
+            this.groupBox1.Controls.Add(this.label55);
+            this.groupBox1.Controls.Add(this.label34);
+            this.groupBox1.Controls.Add(this.label35);
+            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.numericUpDown6);
+            this.groupBox1.Controls.Add(this.label33);
             this.groupBox1.Controls.Add(this.checkBox4);
             this.groupBox1.Controls.Add(this.label23);
             this.groupBox1.Controls.Add(this.label22);
@@ -267,17 +340,83 @@
             this.groupBox1.Controls.Add(this.numericUpDown2);
             this.groupBox1.Controls.Add(this.checkBox3);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(532, 63);
+            this.groupBox1.Location = new System.Drawing.Point(661, 40);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(264, 238);
+            this.groupBox1.Size = new System.Drawing.Size(264, 293);
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Управление ШИМ";
             // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(185, 182);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(29, 13);
+            this.label56.TabIndex = 73;
+            this.label56.Text = "NuN";
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(18, 183);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(83, 13);
+            this.label55.TabIndex = 72;
+            this.label55.Text = "Текуший ШИМ:";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(184, 103);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(29, 13);
+            this.label34.TabIndex = 71;
+            this.label34.Text = "NuN";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(16, 104);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(122, 13);
+            this.label35.TabIndex = 70;
+            this.label35.Text = "Текущий дедтайм (ед):";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(187, 146);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(55, 21);
+            this.button5.TabIndex = 69;
+            this.button5.Text = "Задать";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown6
+            // 
+            this.numericUpDown6.Location = new System.Drawing.Point(187, 121);
+            this.numericUpDown6.Maximum = new decimal(new int[] {
+            400,
+            0,
+            0,
+            0});
+            this.numericUpDown6.Name = "numericUpDown6";
+            this.numericUpDown6.Size = new System.Drawing.Size(55, 20);
+            this.numericUpDown6.TabIndex = 68;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(18, 125);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(113, 13);
+            this.label33.TabIndex = 67;
+            this.label33.Text = "Задать дедтайм (ед):";
+            // 
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(20, 131);
+            this.checkBox4.Location = new System.Drawing.Point(20, 239);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(104, 17);
             this.checkBox4.TabIndex = 66;
@@ -335,7 +474,7 @@
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(186, 103);
+            this.numericUpDown2.Location = new System.Drawing.Point(186, 211);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             400,
             0,
@@ -348,7 +487,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(20, 154);
+            this.checkBox3.Location = new System.Drawing.Point(20, 262);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(126, 17);
             this.checkBox3.TabIndex = 33;
@@ -358,7 +497,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(17, 107);
+            this.label4.Location = new System.Drawing.Point(17, 215);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(121, 13);
             this.label4.TabIndex = 59;
@@ -373,15 +512,6 @@
             this.label1.TabIndex = 31;
             this.label1.Text = "Напряжение ЗПТ:";
             // 
-            // label_U_zpt
-            // 
-            this.label_U_zpt.AutoSize = true;
-            this.label_U_zpt.Location = new System.Drawing.Point(191, 27);
-            this.label_U_zpt.Name = "label_U_zpt";
-            this.label_U_zpt.Size = new System.Drawing.Size(29, 13);
-            this.label_U_zpt.TabIndex = 31;
-            this.label_U_zpt.Text = "NuN";
-            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -391,14 +521,14 @@
             this.label3.TabIndex = 31;
             this.label3.Text = "Порог срабатывания текущий:";
             // 
-            // label_threshold_U_zpt
+            // M21
             // 
-            this.label_threshold_U_zpt.AutoSize = true;
-            this.label_threshold_U_zpt.Location = new System.Drawing.Point(191, 50);
-            this.label_threshold_U_zpt.Name = "label_threshold_U_zpt";
-            this.label_threshold_U_zpt.Size = new System.Drawing.Size(29, 13);
-            this.label_threshold_U_zpt.TabIndex = 31;
-            this.label_threshold_U_zpt.Text = "NuN";
+            this.M21.AutoSize = true;
+            this.M21.Location = new System.Drawing.Point(191, 50);
+            this.M21.Name = "M21";
+            this.M21.Size = new System.Drawing.Size(29, 13);
+            this.M21.TabIndex = 31;
+            this.M21.Text = "NuN";
             // 
             // groupBox2
             // 
@@ -410,13 +540,13 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.checkBox2);
             this.groupBox2.Controls.Add(this.checkBox1);
-            this.groupBox2.Controls.Add(this.label_threshold_U_zpt);
+            this.groupBox2.Controls.Add(this.M21);
             this.groupBox2.Controls.Add(this.label3);
-            this.groupBox2.Controls.Add(this.label_U_zpt);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(257, 63);
+            this.groupBox2.Controls.Add(this.M10);
+            this.groupBox2.Location = new System.Drawing.Point(403, 40);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(252, 238);
+            this.groupBox2.Size = new System.Drawing.Size(252, 293);
             this.groupBox2.TabIndex = 32;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Звено постоянного тока";
@@ -501,10 +631,19 @@
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
+            // M10
+            // 
+            this.M10.AutoSize = true;
+            this.M10.Location = new System.Drawing.Point(191, 27);
+            this.M10.Name = "M10";
+            this.M10.Size = new System.Drawing.Size(29, 13);
+            this.M10.TabIndex = 56;
+            this.M10.Text = "NuN";
+            // 
             // A0
             // 
             this.A0.AutoSize = true;
-            this.A0.Location = new System.Drawing.Point(356, 431);
+            this.A0.Location = new System.Drawing.Point(128, 20);
             this.A0.Name = "A0";
             this.A0.Size = new System.Drawing.Size(29, 13);
             this.A0.TabIndex = 37;
@@ -513,7 +652,7 @@
             // A4
             // 
             this.A4.AutoSize = true;
-            this.A4.Location = new System.Drawing.Point(356, 454);
+            this.A4.Location = new System.Drawing.Point(128, 43);
             this.A4.Name = "A4";
             this.A4.Size = new System.Drawing.Size(29, 13);
             this.A4.TabIndex = 38;
@@ -522,7 +661,7 @@
             // A5
             // 
             this.A5.AutoSize = true;
-            this.A5.Location = new System.Drawing.Point(356, 479);
+            this.A5.Location = new System.Drawing.Point(128, 68);
             this.A5.Name = "A5";
             this.A5.Size = new System.Drawing.Size(29, 13);
             this.A5.TabIndex = 39;
@@ -531,7 +670,7 @@
             // A6
             // 
             this.A6.AutoSize = true;
-            this.A6.Location = new System.Drawing.Point(356, 502);
+            this.A6.Location = new System.Drawing.Point(128, 91);
             this.A6.Name = "A6";
             this.A6.Size = new System.Drawing.Size(29, 13);
             this.A6.TabIndex = 40;
@@ -540,43 +679,43 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(17, 431);
+            this.label13.Location = new System.Drawing.Point(13, 20);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(210, 13);
+            this.label13.Size = new System.Drawing.Size(77, 13);
             this.label13.TabIndex = 41;
-            this.label13.Text = "GPIOA.0 Isens - вход с токового датчика";
+            this.label13.Text = "GPIOA.0 Isens";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(17, 454);
+            this.label14.Location = new System.Drawing.Point(13, 43);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(300, 13);
+            this.label14.Size = new System.Drawing.Size(74, 13);
             this.label14.TabIndex = 42;
-            this.label14.Text = "GPIOA.4 Uzpt - вход, напряжение звена постоянного тока";
+            this.label14.Text = "GPIOA.4 Uzpt";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(17, 479);
+            this.label15.Location = new System.Drawing.Point(13, 68);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(275, 13);
+            this.label15.Size = new System.Drawing.Size(66, 13);
             this.label15.TabIndex = 43;
-            this.label15.Text = "GPIOA.5 Un \t- выходное напряжение. обратная связь";
+            this.label15.Text = "GPIOA.5 Un";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(17, 502);
+            this.label16.Location = new System.Drawing.Point(13, 91);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(256, 13);
+            this.label16.Size = new System.Drawing.Size(82, 13);
             this.label16.TabIndex = 44;
-            this.label16.Text = "GPIOA.6 Ibreak - ток отсечки. защитная функция.";
+            this.label16.Text = "GPIOA.6 Ibreak";
             // 
             // label_telemetry
             // 
             this.label_telemetry.AutoSize = true;
-            this.label_telemetry.Location = new System.Drawing.Point(356, 385);
+            this.label_telemetry.Location = new System.Drawing.Point(127, 576);
             this.label_telemetry.Name = "label_telemetry";
             this.label_telemetry.Size = new System.Drawing.Size(29, 13);
             this.label_telemetry.TabIndex = 45;
@@ -585,7 +724,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(18, 385);
+            this.label2.Location = new System.Drawing.Point(13, 576);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(94, 13);
             this.label2.TabIndex = 46;
@@ -594,7 +733,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(391, 431);
+            this.label8.Location = new System.Drawing.Point(163, 20);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(25, 13);
             this.label8.TabIndex = 47;
@@ -603,7 +742,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(391, 454);
+            this.label10.Location = new System.Drawing.Point(163, 43);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(25, 13);
             this.label10.TabIndex = 48;
@@ -612,7 +751,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(391, 479);
+            this.label11.Location = new System.Drawing.Point(163, 68);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(25, 13);
             this.label11.TabIndex = 49;
@@ -621,7 +760,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(391, 502);
+            this.label12.Location = new System.Drawing.Point(163, 91);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(25, 13);
             this.label12.TabIndex = 50;
@@ -630,7 +769,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(569, 431);
+            this.label17.Location = new System.Drawing.Point(276, 20);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(22, 13);
             this.label17.TabIndex = 51;
@@ -639,7 +778,7 @@
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(569, 502);
+            this.label18.Location = new System.Drawing.Point(276, 91);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(14, 13);
             this.label18.TabIndex = 52;
@@ -648,7 +787,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(569, 454);
+            this.label19.Location = new System.Drawing.Point(276, 43);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(14, 13);
             this.label19.TabIndex = 53;
@@ -657,7 +796,7 @@
             // label20
             // 
             this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(569, 479);
+            this.label20.Location = new System.Drawing.Point(276, 68);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(21, 13);
             this.label20.TabIndex = 54;
@@ -666,25 +805,16 @@
             // M9
             // 
             this.M9.AutoSize = true;
-            this.M9.Location = new System.Drawing.Point(515, 431);
+            this.M9.Location = new System.Drawing.Point(227, 116);
             this.M9.Name = "M9";
             this.M9.Size = new System.Drawing.Size(29, 13);
             this.M9.TabIndex = 55;
             this.M9.Text = "NuN";
             // 
-            // M10
-            // 
-            this.M10.AutoSize = true;
-            this.M10.Location = new System.Drawing.Point(515, 454);
-            this.M10.Name = "M10";
-            this.M10.Size = new System.Drawing.Size(29, 13);
-            this.M10.TabIndex = 56;
-            this.M10.Text = "NuN";
-            // 
             // M11
             // 
             this.M11.AutoSize = true;
-            this.M11.Location = new System.Drawing.Point(515, 479);
+            this.M11.Location = new System.Drawing.Point(227, 26);
             this.M11.Name = "M11";
             this.M11.Size = new System.Drawing.Size(29, 13);
             this.M11.TabIndex = 57;
@@ -693,7 +823,7 @@
             // M12
             // 
             this.M12.AutoSize = true;
-            this.M12.Location = new System.Drawing.Point(515, 502);
+            this.M12.Location = new System.Drawing.Point(222, 91);
             this.M12.Name = "M12";
             this.M12.Size = new System.Drawing.Size(29, 13);
             this.M12.TabIndex = 58;
@@ -709,13 +839,13 @@
             this.groupBox3.Controls.Add(this.button3);
             this.groupBox3.Controls.Add(this.numericUpDown4);
             this.groupBox3.Controls.Add(this.label28);
-            this.groupBox3.Controls.Add(this.label26);
             this.groupBox3.Controls.Add(this.label27);
-            this.groupBox3.Controls.Add(this.label25);
             this.groupBox3.Controls.Add(this.label24);
-            this.groupBox3.Location = new System.Drawing.Point(813, 63);
+            this.groupBox3.Controls.Add(this.M9);
+            this.groupBox3.Controls.Add(this.M11);
+            this.groupBox3.Location = new System.Drawing.Point(940, 40);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(273, 238);
+            this.groupBox3.Size = new System.Drawing.Size(273, 293);
             this.groupBox3.TabIndex = 59;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Выходные параметры";
@@ -723,7 +853,7 @@
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(234, 143);
+            this.label31.Location = new System.Drawing.Point(227, 141);
             this.label31.Name = "label31";
             this.label31.Size = new System.Drawing.Size(29, 13);
             this.label31.TabIndex = 76;
@@ -732,7 +862,7 @@
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(15, 141);
+            this.label30.Location = new System.Drawing.Point(9, 142);
             this.label30.Name = "label30";
             this.label30.Size = new System.Drawing.Size(169, 13);
             this.label30.TabIndex = 75;
@@ -740,7 +870,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(208, 195);
+            this.button4.Location = new System.Drawing.Point(208, 193);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(55, 21);
             this.button4.TabIndex = 74;
@@ -749,7 +879,7 @@
             // 
             // numericUpDown5
             // 
-            this.numericUpDown5.Location = new System.Drawing.Point(208, 170);
+            this.numericUpDown5.Location = new System.Drawing.Point(208, 168);
             this.numericUpDown5.Maximum = new decimal(new int[] {
             400,
             0,
@@ -762,7 +892,7 @@
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(15, 173);
+            this.label29.Location = new System.Drawing.Point(9, 170);
             this.label29.Name = "label29";
             this.label29.Size = new System.Drawing.Size(160, 13);
             this.label29.TabIndex = 72;
@@ -770,7 +900,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(208, 110);
+            this.button3.Location = new System.Drawing.Point(208, 76);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(55, 21);
             this.button3.TabIndex = 71;
@@ -779,7 +909,7 @@
             // 
             // numericUpDown4
             // 
-            this.numericUpDown4.Location = new System.Drawing.Point(208, 85);
+            this.numericUpDown4.Location = new System.Drawing.Point(208, 51);
             this.numericUpDown4.Maximum = new decimal(new int[] {
             400,
             0,
@@ -792,43 +922,25 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(11, 89);
+            this.label28.Location = new System.Drawing.Point(9, 55);
             this.label28.Name = "label28";
             this.label28.Size = new System.Drawing.Size(185, 13);
             this.label28.TabIndex = 69;
             this.label28.Text = "Задать выходное напряжение (кВ):";
             // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(227, 56);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(29, 13);
-            this.label26.TabIndex = 68;
-            this.label26.Text = "NuN";
-            // 
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(18, 55);
+            this.label27.Location = new System.Drawing.Point(10, 114);
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(104, 13);
             this.label27.TabIndex = 67;
             this.label27.Text = "Выходной ток (мА):";
             // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(227, 27);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(29, 13);
-            this.label25.TabIndex = 66;
-            this.label25.Text = "NuN";
-            // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(17, 27);
+            this.label24.Location = new System.Drawing.Point(9, 27);
             this.label24.Name = "label24";
             this.label24.Size = new System.Drawing.Size(150, 13);
             this.label24.TabIndex = 65;
@@ -837,7 +949,7 @@
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(19, 403);
+            this.label32.Location = new System.Drawing.Point(13, 594);
             this.label32.Name = "label32";
             this.label32.Size = new System.Drawing.Size(100, 13);
             this.label32.TabIndex = 61;
@@ -846,46 +958,588 @@
             // label_control
             // 
             this.label_control.AutoSize = true;
-            this.label_control.Location = new System.Drawing.Point(357, 403);
+            this.label_control.Location = new System.Drawing.Point(127, 594);
             this.label_control.Name = "label_control";
             this.label_control.Size = new System.Drawing.Size(29, 13);
             this.label_control.TabIndex = 60;
             this.label_control.Text = "NuN";
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label41);
+            this.groupBox4.Controls.Add(this.label42);
+            this.groupBox4.Controls.Add(this.button7);
+            this.groupBox4.Controls.Add(this.numericUpDown8);
+            this.groupBox4.Controls.Add(this.label43);
+            this.groupBox4.Controls.Add(this.label44);
+            this.groupBox4.Controls.Add(this.label45);
+            this.groupBox4.Controls.Add(this.label39);
+            this.groupBox4.Controls.Add(this.label40);
+            this.groupBox4.Controls.Add(this.button6);
+            this.groupBox4.Controls.Add(this.numericUpDown7);
+            this.groupBox4.Controls.Add(this.label38);
+            this.groupBox4.Controls.Add(this.label37);
+            this.groupBox4.Controls.Add(this.label36);
+            this.groupBox4.Location = new System.Drawing.Point(661, 454);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(264, 230);
+            this.groupBox4.TabIndex = 62;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Температура";
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(215, 155);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(29, 13);
+            this.label41.TabIndex = 78;
+            this.label41.Text = "NuN";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(12, 156);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(113, 13);
+            this.label42.TabIndex = 77;
+            this.label42.Text = "Порог радиатора (С):";
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(195, 198);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(55, 21);
+            this.button7.TabIndex = 76;
+            this.button7.Text = "Задать";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown8
+            // 
+            this.numericUpDown8.Location = new System.Drawing.Point(195, 173);
+            this.numericUpDown8.Maximum = new decimal(new int[] {
+            400,
+            0,
+            0,
+            0});
+            this.numericUpDown8.Name = "numericUpDown8";
+            this.numericUpDown8.Size = new System.Drawing.Size(55, 20);
+            this.numericUpDown8.TabIndex = 75;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(12, 177);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(150, 13);
+            this.label43.TabIndex = 74;
+            this.label43.Text = "Задать порог радиатора (С):";
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(215, 134);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(29, 13);
+            this.label44.TabIndex = 73;
+            this.label44.Text = "NuN";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(11, 134);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(149, 13);
+            this.label45.TabIndex = 72;
+            this.label45.Text = "Температура радиатора (С):";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(213, 48);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(29, 13);
+            this.label39.TabIndex = 71;
+            this.label39.Text = "NuN";
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(10, 49);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(153, 13);
+            this.label40.TabIndex = 70;
+            this.label40.Text = "Порог платы управления (С):";
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(193, 91);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(55, 21);
+            this.button6.TabIndex = 69;
+            this.button6.Text = "Задать";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown7
+            // 
+            this.numericUpDown7.Location = new System.Drawing.Point(193, 66);
+            this.numericUpDown7.Maximum = new decimal(new int[] {
+            400,
+            0,
+            0,
+            0});
+            this.numericUpDown7.Name = "numericUpDown7";
+            this.numericUpDown7.Size = new System.Drawing.Size(55, 20);
+            this.numericUpDown7.TabIndex = 68;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(10, 70);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(128, 13);
+            this.label38.TabIndex = 67;
+            this.label38.Text = "Задать порог платы (С):";
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(213, 27);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(29, 13);
+            this.label37.TabIndex = 66;
+            this.label37.Text = "NuN";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(9, 27);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(189, 13);
+            this.label36.TabIndex = 32;
+            this.label36.Text = "Температура платы управления (С):";
+            // 
+            // groupBox5
+            // 
+            this.groupBox5.Controls.Add(this.label52);
+            this.groupBox5.Controls.Add(this.label53);
+            this.groupBox5.Controls.Add(this.button10);
+            this.groupBox5.Controls.Add(this.numericUpDown11);
+            this.groupBox5.Controls.Add(this.label54);
+            this.groupBox5.Controls.Add(this.label49);
+            this.groupBox5.Controls.Add(this.label50);
+            this.groupBox5.Controls.Add(this.button9);
+            this.groupBox5.Controls.Add(this.numericUpDown10);
+            this.groupBox5.Controls.Add(this.label51);
+            this.groupBox5.Controls.Add(this.label46);
+            this.groupBox5.Controls.Add(this.label47);
+            this.groupBox5.Controls.Add(this.button8);
+            this.groupBox5.Controls.Add(this.numericUpDown9);
+            this.groupBox5.Controls.Add(this.label48);
+            this.groupBox5.Location = new System.Drawing.Point(940, 454);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(269, 263);
+            this.groupBox5.TabIndex = 63;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "ПИД-регулятор выхода";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(218, 180);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(29, 13);
+            this.label52.TabIndex = 93;
+            this.label52.Text = "NuN";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(15, 181);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(125, 13);
+            this.label53.TabIndex = 92;
+            this.label53.Text = "Д - состовляющая (ед):";
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(198, 223);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(55, 21);
+            this.button10.TabIndex = 91;
+            this.button10.Text = "Задать";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown11
+            // 
+            this.numericUpDown11.Location = new System.Drawing.Point(198, 198);
+            this.numericUpDown11.Maximum = new decimal(new int[] {
+            400,
+            0,
+            0,
+            0});
+            this.numericUpDown11.Name = "numericUpDown11";
+            this.numericUpDown11.Size = new System.Drawing.Size(55, 20);
+            this.numericUpDown11.TabIndex = 90;
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(15, 202);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(166, 13);
+            this.label54.TabIndex = 89;
+            this.label54.Text = "Задать Д - состовляющаю (ед):";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(218, 101);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(29, 13);
+            this.label49.TabIndex = 88;
+            this.label49.Text = "NuN";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(15, 102);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(124, 13);
+            this.label50.TabIndex = 87;
+            this.label50.Text = "И - состовляющая (ед):";
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(198, 144);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(55, 21);
+            this.button9.TabIndex = 86;
+            this.button9.Text = "Задать";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown10
+            // 
+            this.numericUpDown10.Location = new System.Drawing.Point(198, 119);
+            this.numericUpDown10.Maximum = new decimal(new int[] {
+            400,
+            0,
+            0,
+            0});
+            this.numericUpDown10.Name = "numericUpDown10";
+            this.numericUpDown10.Size = new System.Drawing.Size(55, 20);
+            this.numericUpDown10.TabIndex = 85;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(15, 123);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(165, 13);
+            this.label51.TabIndex = 84;
+            this.label51.Text = "Задать И - состовляющаю (ед):";
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(219, 26);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(29, 13);
+            this.label46.TabIndex = 83;
+            this.label46.Text = "NuN";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(16, 27);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(124, 13);
+            this.label47.TabIndex = 82;
+            this.label47.Text = "П - состовляющая (ед):";
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(199, 69);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(55, 21);
+            this.button8.TabIndex = 81;
+            this.button8.Text = "Задать";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown9
+            // 
+            this.numericUpDown9.Location = new System.Drawing.Point(199, 44);
+            this.numericUpDown9.Maximum = new decimal(new int[] {
+            400,
+            0,
+            0,
+            0});
+            this.numericUpDown9.Name = "numericUpDown9";
+            this.numericUpDown9.Size = new System.Drawing.Size(55, 20);
+            this.numericUpDown9.TabIndex = 80;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(16, 48);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(165, 13);
+            this.label48.TabIndex = 79;
+            this.label48.Text = "Задать П - состовляющаю (ед):";
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.label65);
+            this.groupBox6.Controls.Add(this.label66);
+            this.groupBox6.Controls.Add(this.button14);
+            this.groupBox6.Controls.Add(this.numericUpDown15);
+            this.groupBox6.Controls.Add(this.label67);
+            this.groupBox6.Controls.Add(this.label62);
+            this.groupBox6.Controls.Add(this.label63);
+            this.groupBox6.Controls.Add(this.button13);
+            this.groupBox6.Controls.Add(this.numericUpDown14);
+            this.groupBox6.Controls.Add(this.label64);
+            this.groupBox6.Controls.Add(this.label59);
+            this.groupBox6.Controls.Add(this.label60);
+            this.groupBox6.Controls.Add(this.button12);
+            this.groupBox6.Controls.Add(this.numericUpDown13);
+            this.groupBox6.Controls.Add(this.label61);
+            this.groupBox6.Controls.Add(this.label9);
+            this.groupBox6.Controls.Add(this.label57);
+            this.groupBox6.Controls.Add(this.button11);
+            this.groupBox6.Controls.Add(this.numericUpDown12);
+            this.groupBox6.Controls.Add(this.label58);
+            this.groupBox6.Controls.Add(this.M12);
+            this.groupBox6.Controls.Add(this.label32);
+            this.groupBox6.Controls.Add(this.label_control);
+            this.groupBox6.Controls.Add(this.label20);
+            this.groupBox6.Controls.Add(this.label19);
+            this.groupBox6.Controls.Add(this.label2);
+            this.groupBox6.Controls.Add(this.label_telemetry);
+            this.groupBox6.Controls.Add(this.label18);
+            this.groupBox6.Controls.Add(this.label17);
+            this.groupBox6.Controls.Add(this.label12);
+            this.groupBox6.Controls.Add(this.label11);
+            this.groupBox6.Controls.Add(this.label10);
+            this.groupBox6.Controls.Add(this.label8);
+            this.groupBox6.Controls.Add(this.label16);
+            this.groupBox6.Controls.Add(this.label15);
+            this.groupBox6.Controls.Add(this.label14);
+            this.groupBox6.Controls.Add(this.label13);
+            this.groupBox6.Controls.Add(this.A6);
+            this.groupBox6.Controls.Add(this.A5);
+            this.groupBox6.Controls.Add(this.A4);
+            this.groupBox6.Controls.Add(this.A0);
+            this.groupBox6.Location = new System.Drawing.Point(37, 40);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(310, 644);
+            this.groupBox6.TabIndex = 64;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Служебная телеметрия";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(265, 382);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(29, 13);
+            this.label65.TabIndex = 103;
+            this.label65.Text = "NuN";
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Location = new System.Drawing.Point(13, 383);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(189, 13);
+            this.label66.TabIndex = 102;
+            this.label66.Text = "Коэффициент пересчёта Ibreak (ед):";
+            // 
+            // button14
+            // 
+            this.button14.Location = new System.Drawing.Point(243, 426);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(55, 21);
+            this.button14.TabIndex = 101;
+            this.button14.Text = "Задать";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown15
+            // 
+            this.numericUpDown15.Location = new System.Drawing.Point(242, 400);
+            this.numericUpDown15.Maximum = new decimal(new int[] {
+            400,
+            0,
+            0,
+            0});
+            this.numericUpDown15.Name = "numericUpDown15";
+            this.numericUpDown15.Size = new System.Drawing.Size(55, 20);
+            this.numericUpDown15.TabIndex = 100;
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Location = new System.Drawing.Point(12, 404);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(227, 13);
+            this.label67.TabIndex = 99;
+            this.label67.Text = "Задать коэффициент пересчёта Ibreak (ед):";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(265, 299);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(29, 13);
+            this.label62.TabIndex = 98;
+            this.label62.Text = "NuN";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(13, 300);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(173, 13);
+            this.label63.TabIndex = 97;
+            this.label63.Text = "Коэффициент пересчёта Un (ед):";
+            // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(243, 343);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(55, 21);
+            this.button13.TabIndex = 96;
+            this.button13.Text = "Задать";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown14
+            // 
+            this.numericUpDown14.Location = new System.Drawing.Point(242, 317);
+            this.numericUpDown14.Maximum = new decimal(new int[] {
+            400,
+            0,
+            0,
+            0});
+            this.numericUpDown14.Name = "numericUpDown14";
+            this.numericUpDown14.Size = new System.Drawing.Size(55, 20);
+            this.numericUpDown14.TabIndex = 95;
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(13, 321);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(211, 13);
+            this.label64.TabIndex = 94;
+            this.label64.Text = "Задать коэффициент пересчёта Un (ед):";
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(264, 217);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(29, 13);
+            this.label59.TabIndex = 93;
+            this.label59.Text = "NuN";
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(12, 218);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(181, 13);
+            this.label60.TabIndex = 92;
+            this.label60.Text = "Коэффициент пересчёта Uzpt (ед):";
+            // 
+            // button12
+            // 
+            this.button12.Location = new System.Drawing.Point(242, 261);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(55, 21);
+            this.button12.TabIndex = 91;
+            this.button12.Text = "Задать";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown13
+            // 
+            this.numericUpDown13.Location = new System.Drawing.Point(241, 235);
+            this.numericUpDown13.Maximum = new decimal(new int[] {
+            400,
+            0,
+            0,
+            0});
+            this.numericUpDown13.Name = "numericUpDown13";
+            this.numericUpDown13.Size = new System.Drawing.Size(55, 20);
+            this.numericUpDown13.TabIndex = 90;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(12, 239);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(219, 13);
+            this.label61.TabIndex = 89;
+            this.label61.Text = "Задать коэффициент пересчёта Uzpt (ед):";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(265, 140);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(29, 13);
+            this.label9.TabIndex = 88;
+            this.label9.Text = "NuN";
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(13, 141);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(184, 13);
+            this.label57.TabIndex = 87;
+            this.label57.Text = "Коэффициент пересчёта Isens (ед):";
+            // 
+            // button11
+            // 
+            this.button11.Location = new System.Drawing.Point(243, 184);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(55, 21);
+            this.button11.TabIndex = 86;
+            this.button11.Text = "Задать";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // numericUpDown12
+            // 
+            this.numericUpDown12.Location = new System.Drawing.Point(242, 158);
+            this.numericUpDown12.Maximum = new decimal(new int[] {
+            400,
+            0,
+            0,
+            0});
+            this.numericUpDown12.Name = "numericUpDown12";
+            this.numericUpDown12.Size = new System.Drawing.Size(55, 20);
+            this.numericUpDown12.TabIndex = 85;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(13, 162);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(222, 13);
+            this.label58.TabIndex = 84;
+            this.label58.Text = "Задать коэффициент пересчёта Isens (ед):";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1125, 583);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label_control);
+            this.ClientSize = new System.Drawing.Size(1225, 793);
+            this.Controls.Add(this.groupBox6);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.M12);
-            this.Controls.Add(this.M11);
-            this.Controls.Add(this.M10);
-            this.Controls.Add(this.M9);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label_telemetry);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.A6);
-            this.Controls.Add(this.A5);
-            this.Controls.Add(this.A4);
-            this.Controls.Add(this.A0);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label_count_connect);
-            this.Controls.Add(this.label9);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.Main_menu);
             this.Name = "Form1";
@@ -897,6 +1551,7 @@
             this.statusStrip1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.groupBox2.ResumeLayout(false);
@@ -906,6 +1561,21 @@
             this.groupBox3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown4)).EndInit();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown7)).EndInit();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown9)).EndInit();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown12)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -928,13 +1598,10 @@
         public System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
         public System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel4;
         public System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel5;
-        public System.Windows.Forms.Label label_count_connect;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label_U_zpt;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label_threshold_U_zpt;
+        private System.Windows.Forms.Label M21;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label A0;
         private System.Windows.Forms.Label A4;
@@ -984,13 +1651,72 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.NumericUpDown numericUpDown4;
         private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.ToolStripMenuItem EEPROM_ToolStripMenuItem;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label_control;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.NumericUpDown numericUpDown6;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.NumericUpDown numericUpDown8;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.NumericUpDown numericUpDown7;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.NumericUpDown numericUpDown11;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.NumericUpDown numericUpDown10;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.NumericUpDown numericUpDown9;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel6;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel7;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Label label65;
+        private System.Windows.Forms.Label label66;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.NumericUpDown numericUpDown15;
+        private System.Windows.Forms.Label label67;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Label label63;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.NumericUpDown numericUpDown14;
+        private System.Windows.Forms.Label label64;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.NumericUpDown numericUpDown13;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.NumericUpDown numericUpDown12;
+        private System.Windows.Forms.Label label58;
     }
 }
 
