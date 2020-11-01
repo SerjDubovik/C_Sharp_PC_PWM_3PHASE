@@ -48,17 +48,17 @@
             this.toolStripStatusLabel6 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel7 = new System.Windows.Forms.ToolStripStatusLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label56 = new System.Windows.Forms.Label();
+            this.M27 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
+            this.M25 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
             this.label33 = new System.Windows.Forms.Label();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.label23 = new System.Windows.Forms.Label();
+            this.M23 = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button_set_freq_threshold = new System.Windows.Forms.Button();
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.label21 = new System.Windows.Forms.Label();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
@@ -68,7 +68,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.M21 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_set_ZPT_threshold = new System.Windows.Forms.Button();
             this.label_state_rele = new System.Windows.Forms.Label();
             this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.label7 = new System.Windows.Forms.Label();
@@ -99,7 +99,7 @@
             this.M11 = new System.Windows.Forms.Label();
             this.M12 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label31 = new System.Windows.Forms.Label();
+            this.M30 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.button4 = new System.Windows.Forms.Button();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
@@ -112,19 +112,19 @@
             this.label32 = new System.Windows.Forms.Label();
             this.label_control = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label41 = new System.Windows.Forms.Label();
+            this.M36 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
             this.button7 = new System.Windows.Forms.Button();
             this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
             this.label43 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
+            this.M35 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
+            this.M33 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
             this.label38 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
+            this.M32 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label52 = new System.Windows.Forms.Label();
@@ -324,37 +324,37 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label56);
+            this.groupBox1.Controls.Add(this.M27);
             this.groupBox1.Controls.Add(this.label55);
-            this.groupBox1.Controls.Add(this.label34);
+            this.groupBox1.Controls.Add(this.M25);
             this.groupBox1.Controls.Add(this.label35);
             this.groupBox1.Controls.Add(this.button5);
             this.groupBox1.Controls.Add(this.numericUpDown6);
             this.groupBox1.Controls.Add(this.label33);
             this.groupBox1.Controls.Add(this.checkBox4);
-            this.groupBox1.Controls.Add(this.label23);
+            this.groupBox1.Controls.Add(this.M23);
             this.groupBox1.Controls.Add(this.label22);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.button_set_freq_threshold);
             this.groupBox1.Controls.Add(this.numericUpDown3);
             this.groupBox1.Controls.Add(this.label21);
             this.groupBox1.Controls.Add(this.numericUpDown2);
             this.groupBox1.Controls.Add(this.checkBox3);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Location = new System.Drawing.Point(661, 40);
+            this.groupBox1.Location = new System.Drawing.Point(665, 40);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(264, 293);
             this.groupBox1.TabIndex = 30;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Управление ШИМ";
             // 
-            // label56
+            // M27
             // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(185, 182);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(29, 13);
-            this.label56.TabIndex = 73;
-            this.label56.Text = "NuN";
+            this.M27.AutoSize = true;
+            this.M27.Location = new System.Drawing.Point(186, 182);
+            this.M27.Name = "M27";
+            this.M27.Size = new System.Drawing.Size(29, 13);
+            this.M27.TabIndex = 73;
+            this.M27.Text = "NuN";
             // 
             // label55
             // 
@@ -365,14 +365,14 @@
             this.label55.TabIndex = 72;
             this.label55.Text = "Текуший ШИМ:";
             // 
-            // label34
+            // M25
             // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(184, 103);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(29, 13);
-            this.label34.TabIndex = 71;
-            this.label34.Text = "NuN";
+            this.M25.AutoSize = true;
+            this.M25.Location = new System.Drawing.Point(184, 103);
+            this.M25.Name = "M25";
+            this.M25.Size = new System.Drawing.Size(29, 13);
+            this.M25.TabIndex = 71;
+            this.M25.Text = "NuN";
             // 
             // label35
             // 
@@ -424,14 +424,14 @@
             this.checkBox4.UseVisualStyleBackColor = true;
             this.checkBox4.CheckedChanged += new System.EventHandler(this.checkBox4_CheckedChanged);
             // 
-            // label23
+            // M23
             // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(183, 26);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(29, 13);
-            this.label23.TabIndex = 65;
-            this.label23.Text = "NuN";
+            this.M23.AutoSize = true;
+            this.M23.Location = new System.Drawing.Point(183, 26);
+            this.M23.Name = "M23";
+            this.M23.Size = new System.Drawing.Size(29, 13);
+            this.M23.TabIndex = 65;
+            this.M23.Text = "NuN";
             // 
             // label22
             // 
@@ -442,14 +442,15 @@
             this.label22.TabIndex = 64;
             this.label22.Text = "Текущая частота (кГц):";
             // 
-            // button2
+            // button_set_freq_threshold
             // 
-            this.button2.Location = new System.Drawing.Point(186, 69);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(55, 21);
-            this.button2.TabIndex = 63;
-            this.button2.Text = "Задать";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button_set_freq_threshold.Location = new System.Drawing.Point(186, 69);
+            this.button_set_freq_threshold.Name = "button_set_freq_threshold";
+            this.button_set_freq_threshold.Size = new System.Drawing.Size(55, 21);
+            this.button_set_freq_threshold.TabIndex = 63;
+            this.button_set_freq_threshold.Text = "Задать";
+            this.button_set_freq_threshold.UseVisualStyleBackColor = true;
+            this.button_set_freq_threshold.Click += new System.EventHandler(this.button_set_freq_threshold_Click);
             // 
             // numericUpDown3
             // 
@@ -474,7 +475,7 @@
             // 
             // numericUpDown2
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(186, 211);
+            this.numericUpDown2.Location = new System.Drawing.Point(186, 210);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             400,
             0,
@@ -532,7 +533,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.button1);
+            this.groupBox2.Controls.Add(this.button_set_ZPT_threshold);
             this.groupBox2.Controls.Add(this.label_state_rele);
             this.groupBox2.Controls.Add(this.numericUpDown1);
             this.groupBox2.Controls.Add(this.label7);
@@ -551,14 +552,15 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Звено постоянного тока";
             // 
-            // button1
+            // button_set_ZPT_threshold
             // 
-            this.button1.Location = new System.Drawing.Point(183, 100);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(55, 21);
-            this.button1.TabIndex = 60;
-            this.button1.Text = "Задать";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_set_ZPT_threshold.Location = new System.Drawing.Point(183, 100);
+            this.button_set_ZPT_threshold.Name = "button_set_ZPT_threshold";
+            this.button_set_ZPT_threshold.Size = new System.Drawing.Size(55, 21);
+            this.button_set_ZPT_threshold.TabIndex = 60;
+            this.button_set_ZPT_threshold.Text = "Задать";
+            this.button_set_ZPT_threshold.UseVisualStyleBackColor = true;
+            this.button_set_ZPT_threshold.Click += new System.EventHandler(this.button_set_ZPT_threshold_Click);
             // 
             // label_state_rele
             // 
@@ -831,7 +833,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.label31);
+            this.groupBox3.Controls.Add(this.M30);
             this.groupBox3.Controls.Add(this.label30);
             this.groupBox3.Controls.Add(this.button4);
             this.groupBox3.Controls.Add(this.numericUpDown5);
@@ -850,14 +852,14 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Выходные параметры";
             // 
-            // label31
+            // M30
             // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(227, 141);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(29, 13);
-            this.label31.TabIndex = 76;
-            this.label31.Text = "NuN";
+            this.M30.AutoSize = true;
+            this.M30.Location = new System.Drawing.Point(227, 141);
+            this.M30.Name = "M30";
+            this.M30.Size = new System.Drawing.Size(29, 13);
+            this.M30.TabIndex = 76;
+            this.M30.Text = "NuN";
             // 
             // label30
             // 
@@ -966,35 +968,35 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.label41);
+            this.groupBox4.Controls.Add(this.M36);
             this.groupBox4.Controls.Add(this.label42);
             this.groupBox4.Controls.Add(this.button7);
             this.groupBox4.Controls.Add(this.numericUpDown8);
             this.groupBox4.Controls.Add(this.label43);
-            this.groupBox4.Controls.Add(this.label44);
+            this.groupBox4.Controls.Add(this.M35);
             this.groupBox4.Controls.Add(this.label45);
-            this.groupBox4.Controls.Add(this.label39);
+            this.groupBox4.Controls.Add(this.M33);
             this.groupBox4.Controls.Add(this.label40);
             this.groupBox4.Controls.Add(this.button6);
             this.groupBox4.Controls.Add(this.numericUpDown7);
             this.groupBox4.Controls.Add(this.label38);
-            this.groupBox4.Controls.Add(this.label37);
+            this.groupBox4.Controls.Add(this.M32);
             this.groupBox4.Controls.Add(this.label36);
-            this.groupBox4.Location = new System.Drawing.Point(661, 454);
+            this.groupBox4.Location = new System.Drawing.Point(670, 454);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(264, 230);
             this.groupBox4.TabIndex = 62;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Температура";
             // 
-            // label41
+            // M36
             // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(215, 155);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(29, 13);
-            this.label41.TabIndex = 78;
-            this.label41.Text = "NuN";
+            this.M36.AutoSize = true;
+            this.M36.Location = new System.Drawing.Point(215, 155);
+            this.M36.Name = "M36";
+            this.M36.Size = new System.Drawing.Size(29, 13);
+            this.M36.TabIndex = 78;
+            this.M36.Text = "NuN";
             // 
             // label42
             // 
@@ -1035,14 +1037,14 @@
             this.label43.TabIndex = 74;
             this.label43.Text = "Задать порог радиатора (С):";
             // 
-            // label44
+            // M35
             // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(215, 134);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(29, 13);
-            this.label44.TabIndex = 73;
-            this.label44.Text = "NuN";
+            this.M35.AutoSize = true;
+            this.M35.Location = new System.Drawing.Point(215, 134);
+            this.M35.Name = "M35";
+            this.M35.Size = new System.Drawing.Size(29, 13);
+            this.M35.TabIndex = 73;
+            this.M35.Text = "NuN";
             // 
             // label45
             // 
@@ -1053,14 +1055,14 @@
             this.label45.TabIndex = 72;
             this.label45.Text = "Температура радиатора (С):";
             // 
-            // label39
+            // M33
             // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(213, 48);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(29, 13);
-            this.label39.TabIndex = 71;
-            this.label39.Text = "NuN";
+            this.M33.AutoSize = true;
+            this.M33.Location = new System.Drawing.Point(213, 48);
+            this.M33.Name = "M33";
+            this.M33.Size = new System.Drawing.Size(29, 13);
+            this.M33.TabIndex = 71;
+            this.M33.Text = "NuN";
             // 
             // label40
             // 
@@ -1101,14 +1103,14 @@
             this.label38.TabIndex = 67;
             this.label38.Text = "Задать порог платы (С):";
             // 
-            // label37
+            // M32
             // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(213, 27);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(29, 13);
-            this.label37.TabIndex = 66;
-            this.label37.Text = "NuN";
+            this.M32.AutoSize = true;
+            this.M32.Location = new System.Drawing.Point(213, 27);
+            this.M32.Name = "M32";
+            this.M32.Size = new System.Drawing.Size(29, 13);
+            this.M32.TabIndex = 66;
+            this.M32.Text = "NuN";
             // 
             // label36
             // 
@@ -1618,7 +1620,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
@@ -1633,17 +1634,17 @@
         private System.Windows.Forms.Label M12;
         private System.Windows.Forms.Label label_state_rele;
         private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label M23;
         private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button_set_freq_threshold;
         private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button_set_ZPT_threshold;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.Label M30;
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.NumericUpDown numericUpDown5;
@@ -1656,27 +1657,27 @@
         private System.Windows.Forms.ToolStripMenuItem EEPROM_ToolStripMenuItem;
         private System.Windows.Forms.Label label32;
         private System.Windows.Forms.Label label_control;
-        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.Label M25;
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.NumericUpDown numericUpDown6;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.Label M36;
         private System.Windows.Forms.Label label42;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.NumericUpDown numericUpDown8;
         private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label M35;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label M33;
         private System.Windows.Forms.Label label40;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.NumericUpDown numericUpDown7;
         private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.Label M32;
+        private System.Windows.Forms.Label M27;
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Label label52;
@@ -1717,6 +1718,7 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.NumericUpDown numericUpDown12;
         private System.Windows.Forms.Label label58;
+        public System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
 

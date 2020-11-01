@@ -118,7 +118,16 @@ namespace C_Sharp_PC_PWM_3PHASE
 			M11.Text = Convert.ToString(modBus_var.mb_mass[11]/1000.0);                 // Un * K_Un
 			M12.Text = Convert.ToString(modBus_var.mb_mass[12]/100.0);					// Ibreak * K_Ibreak
 			
-			M21.Text = Convert.ToString(modBus_var.mb_mass[21]);						// Порог срабатыания реле ЗПТ
+			M21.Text = Convert.ToString(modBus_var.mb_mass[21]);                        // Порог срабатыания реле ЗПТ
+			M23.Text = Convert.ToString(modBus_var.mb_mass[23]);                        // Текущая частота(кГц).
+			M25.Text = Convert.ToString(modBus_var.mb_mass[25]);                        // Текущий дедтайм (ед).
+			M27.Text = Convert.ToString(modBus_var.mb_mass[27]);                        // Текуший ШИМ.
+			M30.Text = Convert.ToString(modBus_var.mb_mass[30]);                        // Текущее токоограничение (мА).
+			M32.Text = Convert.ToString(modBus_var.mb_mass[32]);                        // Температура платы управления (С).
+			M33.Text = Convert.ToString(modBus_var.mb_mass[33]);                        // Порог платы управления (С).
+			M35.Text = Convert.ToString(modBus_var.mb_mass[32]);                        // Температура радиатора (С).
+			M36.Text = Convert.ToString(modBus_var.mb_mass[33]);                        // Порог радиатора (С).
+
 
 			label_control.Text = Convert.ToString(modBus_var.mb_mass[1]);				// слово управления
 			label_telemetry.Text = Convert.ToString(modBus_var.mb_mass[0]);             // состояние системы
@@ -126,7 +135,7 @@ namespace C_Sharp_PC_PWM_3PHASE
 
 
 
-			if ((modBus_var.mb_mass[0] &= 0x4000) != 0)
+			if ((modBus_var.mb_mass[0] &= 0x4000) != 0)//
 			{
 				label_state_rele.Text = "Реле замкнуто";
 				label_state_rele.BackColor = Color.FromArgb(128, 255, 128);
@@ -194,6 +203,34 @@ namespace C_Sharp_PC_PWM_3PHASE
 			else                                                                    // 
 			{
 
+			}
+		}
+
+
+        private void button_set_ZPT_threshold_Click(object sender, EventArgs e)		// кнопка задания порога срабатывания зпт.
+        {
+			if (modBus_var.mb_mass[2] == 0)
+			{
+				modBus_var.mb_mass[22] = Convert.ToUInt16(numericUpDown1.Value);   // 
+				modBus_var.mb_mass[2] = 10;
+			}
+			else 
+			{
+				MessageBox.Show("Не торопись. Протокол за тобой не поспевает.");
+			}
+			
+		}
+
+        private void button_set_freq_threshold_Click(object sender, EventArgs e)	// задает частоту следования импульсов
+        {
+			if (modBus_var.mb_mass[2] == 0)
+			{
+				modBus_var.mb_mass[24] = Convert.ToUInt16(numericUpDown3.Value);   // 
+				modBus_var.mb_mass[2] = 11;
+			}
+			else
+			{
+				MessageBox.Show("Не торопись. Протокол за тобой не поспевает.");
 			}
 		}
     }
