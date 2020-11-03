@@ -80,7 +80,6 @@ namespace C_Sharp_PC_PWM_3PHASE
 				label_state_rele.BackColor = Color.FromArgb(255, 128, 128);
 			}
 
-			modBus_var.mb_mass[2] = 0x00FF;
 
 		}
 
@@ -227,6 +226,72 @@ namespace C_Sharp_PC_PWM_3PHASE
 			{
 				modBus_var.mb_mass[24] = Convert.ToUInt16(numericUpDown3.Value);   // 
 				modBus_var.mb_mass[2] = 11;
+			}
+			else
+			{
+				MessageBox.Show("Не торопись. Протокол за тобой не поспевает.");
+			}
+		}
+
+        private void button_set_dedtime_Click(object sender, EventArgs e)			// задаёт дедтайм
+        {
+			if (modBus_var.mb_mass[2] == 0)
+			{
+				modBus_var.mb_mass[26] = Convert.ToUInt16(numericUpDown6.Value);   // 
+				modBus_var.mb_mass[2] = 12;
+			}
+			else
+			{
+				MessageBox.Show("Не торопись. Протокол за тобой не поспевает.");
+			}
+		}
+
+        private void button_set_Uout_Click(object sender, EventArgs e)				// задать выходное напряжение
+        {
+			if (modBus_var.mb_mass[2] == 0)
+			{
+				modBus_var.mb_mass[29] = Convert.ToUInt16(numericUpDown4.Value);   // 
+				modBus_var.mb_mass[2] = 13;
+			}
+			else
+			{
+				MessageBox.Show("Не торопись. Протокол за тобой не поспевает.");
+			}
+		}
+
+
+        private void button_set_Iout_Click(object sender, EventArgs e)				// задать токоограничение выхода
+        {
+			if (modBus_var.mb_mass[2] == 0)
+			{
+				modBus_var.mb_mass[31] = Convert.ToUInt16(numericUpDown5.Value);   // 
+				modBus_var.mb_mass[2] = 14;
+			}
+			else
+			{
+				MessageBox.Show("Не торопись. Протокол за тобой не поспевает.");
+			}
+		}
+
+        private void button_set_T_plate_threshold_Click(object sender, EventArgs e)	// задаёт порог срабатывания по температуре платы
+        {
+			if (modBus_var.mb_mass[2] == 0)
+			{
+				modBus_var.mb_mass[34] = Convert.ToUInt16(numericUpDown7.Value);   // 
+				modBus_var.mb_mass[2] = 15;
+			}
+			else
+			{
+				MessageBox.Show("Не торопись. Протокол за тобой не поспевает.");
+			}
+		}
+
+        private void button_set_T_heater_threshold_Click(object sender, EventArgs e) // задаёт порог срабатывания по температурерадиатора
+		{
+			if (modBus_var.mb_mass[2] == 0)
+			{
+				modBus_var.mb_mass[37] = Convert.ToUInt16(numericUpDown8.Value);   // 
+				modBus_var.mb_mass[2] = 16;
 			}
 			else
 			{

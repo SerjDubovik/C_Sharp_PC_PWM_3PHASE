@@ -52,7 +52,7 @@
             this.label55 = new System.Windows.Forms.Label();
             this.M25 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
+            this.button_set_dedtime = new System.Windows.Forms.Button();
             this.numericUpDown6 = new System.Windows.Forms.NumericUpDown();
             this.label33 = new System.Windows.Forms.Label();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
@@ -62,7 +62,7 @@
             this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
             this.label21 = new System.Windows.Forms.Label();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox_auto_pwm = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -101,10 +101,10 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.M30 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
-            this.button4 = new System.Windows.Forms.Button();
+            this.button_set_Iout = new System.Windows.Forms.Button();
             this.numericUpDown5 = new System.Windows.Forms.NumericUpDown();
             this.label29 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.button_set_Uout = new System.Windows.Forms.Button();
             this.numericUpDown4 = new System.Windows.Forms.NumericUpDown();
             this.label28 = new System.Windows.Forms.Label();
             this.label27 = new System.Windows.Forms.Label();
@@ -114,14 +114,14 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.M36 = new System.Windows.Forms.Label();
             this.label42 = new System.Windows.Forms.Label();
-            this.button7 = new System.Windows.Forms.Button();
+            this.button_set_T_heater_threshold = new System.Windows.Forms.Button();
             this.numericUpDown8 = new System.Windows.Forms.NumericUpDown();
             this.label43 = new System.Windows.Forms.Label();
             this.M35 = new System.Windows.Forms.Label();
             this.label45 = new System.Windows.Forms.Label();
             this.M33 = new System.Windows.Forms.Label();
             this.label40 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
+            this.button_set_T_plate_threshold = new System.Windows.Forms.Button();
             this.numericUpDown7 = new System.Windows.Forms.NumericUpDown();
             this.label38 = new System.Windows.Forms.Label();
             this.M32 = new System.Windows.Forms.Label();
@@ -328,7 +328,7 @@
             this.groupBox1.Controls.Add(this.label55);
             this.groupBox1.Controls.Add(this.M25);
             this.groupBox1.Controls.Add(this.label35);
-            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.button_set_dedtime);
             this.groupBox1.Controls.Add(this.numericUpDown6);
             this.groupBox1.Controls.Add(this.label33);
             this.groupBox1.Controls.Add(this.checkBox4);
@@ -338,7 +338,7 @@
             this.groupBox1.Controls.Add(this.numericUpDown3);
             this.groupBox1.Controls.Add(this.label21);
             this.groupBox1.Controls.Add(this.numericUpDown2);
-            this.groupBox1.Controls.Add(this.checkBox3);
+            this.groupBox1.Controls.Add(this.checkBox_auto_pwm);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Location = new System.Drawing.Point(665, 40);
             this.groupBox1.Name = "groupBox1";
@@ -383,14 +383,15 @@
             this.label35.TabIndex = 70;
             this.label35.Text = "Текущий дедтайм (ед):";
             // 
-            // button5
+            // button_set_dedtime
             // 
-            this.button5.Location = new System.Drawing.Point(187, 146);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(55, 21);
-            this.button5.TabIndex = 69;
-            this.button5.Text = "Задать";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button_set_dedtime.Location = new System.Drawing.Point(187, 146);
+            this.button_set_dedtime.Name = "button_set_dedtime";
+            this.button_set_dedtime.Size = new System.Drawing.Size(55, 21);
+            this.button_set_dedtime.TabIndex = 69;
+            this.button_set_dedtime.Text = "Задать";
+            this.button_set_dedtime.UseVisualStyleBackColor = true;
+            this.button_set_dedtime.Click += new System.EventHandler(this.button_set_dedtime_Click);
             // 
             // numericUpDown6
             // 
@@ -485,15 +486,15 @@
             this.numericUpDown2.Size = new System.Drawing.Size(55, 20);
             this.numericUpDown2.TabIndex = 60;
             // 
-            // checkBox3
+            // checkBox_auto_pwm
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(20, 262);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(126, 17);
-            this.checkBox3.TabIndex = 33;
-            this.checkBox3.Text = "Автономная работа";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox_auto_pwm.AutoSize = true;
+            this.checkBox_auto_pwm.Location = new System.Drawing.Point(20, 262);
+            this.checkBox_auto_pwm.Name = "checkBox_auto_pwm";
+            this.checkBox_auto_pwm.Size = new System.Drawing.Size(126, 17);
+            this.checkBox_auto_pwm.TabIndex = 33;
+            this.checkBox_auto_pwm.Text = "Автономная работа";
+            this.checkBox_auto_pwm.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -835,10 +836,10 @@
             // 
             this.groupBox3.Controls.Add(this.M30);
             this.groupBox3.Controls.Add(this.label30);
-            this.groupBox3.Controls.Add(this.button4);
+            this.groupBox3.Controls.Add(this.button_set_Iout);
             this.groupBox3.Controls.Add(this.numericUpDown5);
             this.groupBox3.Controls.Add(this.label29);
-            this.groupBox3.Controls.Add(this.button3);
+            this.groupBox3.Controls.Add(this.button_set_Uout);
             this.groupBox3.Controls.Add(this.numericUpDown4);
             this.groupBox3.Controls.Add(this.label28);
             this.groupBox3.Controls.Add(this.label27);
@@ -870,14 +871,15 @@
             this.label30.TabIndex = 75;
             this.label30.Text = "Текущее токоограничение (мА):";
             // 
-            // button4
+            // button_set_Iout
             // 
-            this.button4.Location = new System.Drawing.Point(208, 193);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(55, 21);
-            this.button4.TabIndex = 74;
-            this.button4.Text = "Задать";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button_set_Iout.Location = new System.Drawing.Point(208, 193);
+            this.button_set_Iout.Name = "button_set_Iout";
+            this.button_set_Iout.Size = new System.Drawing.Size(55, 21);
+            this.button_set_Iout.TabIndex = 74;
+            this.button_set_Iout.Text = "Задать";
+            this.button_set_Iout.UseVisualStyleBackColor = true;
+            this.button_set_Iout.Click += new System.EventHandler(this.button_set_Iout_Click);
             // 
             // numericUpDown5
             // 
@@ -900,14 +902,15 @@
             this.label29.TabIndex = 72;
             this.label29.Text = "Задать токоограничение (мА):";
             // 
-            // button3
+            // button_set_Uout
             // 
-            this.button3.Location = new System.Drawing.Point(208, 76);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(55, 21);
-            this.button3.TabIndex = 71;
-            this.button3.Text = "Задать";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button_set_Uout.Location = new System.Drawing.Point(208, 76);
+            this.button_set_Uout.Name = "button_set_Uout";
+            this.button_set_Uout.Size = new System.Drawing.Size(55, 21);
+            this.button_set_Uout.TabIndex = 71;
+            this.button_set_Uout.Text = "Задать";
+            this.button_set_Uout.UseVisualStyleBackColor = true;
+            this.button_set_Uout.Click += new System.EventHandler(this.button_set_Uout_Click);
             // 
             // numericUpDown4
             // 
@@ -970,14 +973,14 @@
             // 
             this.groupBox4.Controls.Add(this.M36);
             this.groupBox4.Controls.Add(this.label42);
-            this.groupBox4.Controls.Add(this.button7);
+            this.groupBox4.Controls.Add(this.button_set_T_heater_threshold);
             this.groupBox4.Controls.Add(this.numericUpDown8);
             this.groupBox4.Controls.Add(this.label43);
             this.groupBox4.Controls.Add(this.M35);
             this.groupBox4.Controls.Add(this.label45);
             this.groupBox4.Controls.Add(this.M33);
             this.groupBox4.Controls.Add(this.label40);
-            this.groupBox4.Controls.Add(this.button6);
+            this.groupBox4.Controls.Add(this.button_set_T_plate_threshold);
             this.groupBox4.Controls.Add(this.numericUpDown7);
             this.groupBox4.Controls.Add(this.label38);
             this.groupBox4.Controls.Add(this.M32);
@@ -1007,14 +1010,15 @@
             this.label42.TabIndex = 77;
             this.label42.Text = "Порог радиатора (С):";
             // 
-            // button7
+            // button_set_T_heater_threshold
             // 
-            this.button7.Location = new System.Drawing.Point(195, 198);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(55, 21);
-            this.button7.TabIndex = 76;
-            this.button7.Text = "Задать";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button_set_T_heater_threshold.Location = new System.Drawing.Point(195, 198);
+            this.button_set_T_heater_threshold.Name = "button_set_T_heater_threshold";
+            this.button_set_T_heater_threshold.Size = new System.Drawing.Size(55, 21);
+            this.button_set_T_heater_threshold.TabIndex = 76;
+            this.button_set_T_heater_threshold.Text = "Задать";
+            this.button_set_T_heater_threshold.UseVisualStyleBackColor = true;
+            this.button_set_T_heater_threshold.Click += new System.EventHandler(this.button_set_T_heater_threshold_Click);
             // 
             // numericUpDown8
             // 
@@ -1073,14 +1077,15 @@
             this.label40.TabIndex = 70;
             this.label40.Text = "Порог платы управления (С):";
             // 
-            // button6
+            // button_set_T_plate_threshold
             // 
-            this.button6.Location = new System.Drawing.Point(193, 91);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(55, 21);
-            this.button6.TabIndex = 69;
-            this.button6.Text = "Задать";
-            this.button6.UseVisualStyleBackColor = true;
+            this.button_set_T_plate_threshold.Location = new System.Drawing.Point(193, 91);
+            this.button_set_T_plate_threshold.Name = "button_set_T_plate_threshold";
+            this.button_set_T_plate_threshold.Size = new System.Drawing.Size(55, 21);
+            this.button_set_T_plate_threshold.TabIndex = 69;
+            this.button_set_T_plate_threshold.Text = "Задать";
+            this.button_set_T_plate_threshold.UseVisualStyleBackColor = true;
+            this.button_set_T_plate_threshold.Click += new System.EventHandler(this.button_set_T_plate_threshold_Click);
             // 
             // numericUpDown7
             // 
@@ -1640,16 +1645,16 @@
         private System.Windows.Forms.NumericUpDown numericUpDown3;
         private System.Windows.Forms.Label label21;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox_auto_pwm;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button_set_ZPT_threshold;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.Label M30;
         private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button_set_Iout;
         private System.Windows.Forms.NumericUpDown numericUpDown5;
         private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button_set_Uout;
         private System.Windows.Forms.NumericUpDown numericUpDown4;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label27;
@@ -1659,21 +1664,21 @@
         private System.Windows.Forms.Label label_control;
         private System.Windows.Forms.Label M25;
         private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button_set_dedtime;
         private System.Windows.Forms.NumericUpDown numericUpDown6;
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.Label label36;
         private System.Windows.Forms.Label M36;
         private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button_set_T_heater_threshold;
         private System.Windows.Forms.NumericUpDown numericUpDown8;
         private System.Windows.Forms.Label label43;
         private System.Windows.Forms.Label M35;
         private System.Windows.Forms.Label label45;
         private System.Windows.Forms.Label M33;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button_set_T_plate_threshold;
         private System.Windows.Forms.NumericUpDown numericUpDown7;
         private System.Windows.Forms.Label label38;
         private System.Windows.Forms.Label M32;

@@ -253,7 +253,11 @@ namespace C_Sharp_PC_PWM_3PHASE
 					master.WriteSingleRegister(modBus_var.adrr_dev_in, 1, modBus_var.mb_mass[1]);   //  запись управляющего слова
 					master.WriteSingleRegister(modBus_var.adrr_dev_in, 2, modBus_var.mb_mass[2]);
 
-					if(modBus_var.mb_mass[3] == 1)
+
+					register = master.ReadHoldingRegisters(modBus_var.adrr_dev_in, 3, 2);           // слейв пишет в этот адрес код команды слейву
+					modBus_var.mb_mass[3] = register[0];
+
+					if (modBus_var.mb_mass[3] == 1)
 					{
 						modBus_var.mb_mass[2] = 0;
 					}
