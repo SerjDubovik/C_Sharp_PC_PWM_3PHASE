@@ -298,7 +298,20 @@ namespace C_Sharp_PC_PWM_3PHASE
 				MessageBox.Show("Не торопись. Протокол за тобой не поспевает.");
 			}
 		}
-    }
+
+		private void numericUpDown2_ValueChanged(object sender, EventArgs e)
+		{
+			if (modBus_var.mb_mass[2] == 0)
+			{
+				modBus_var.mb_mass[28] = Convert.ToUInt16(numericUpDown2.Value);   // 
+				modBus_var.mb_mass[2] = 17;
+			}
+			else
+			{
+				MessageBox.Show("Не торопись. Протокол за тобой не поспевает.");
+			}
+		}
+	}
 
 
 
@@ -306,7 +319,7 @@ namespace C_Sharp_PC_PWM_3PHASE
 
 
 
-    public class ModBus_var
+	public class ModBus_var
 	{
 		public byte adrr_dev_in;
 		public ushort adrr_var_in;
